@@ -46,3 +46,6 @@ C:\Users\Leming\AppData\Roaming\hackmud\rodent\scripts\sniff.js
 <color=#FFFFFFFF>>><color=#9B9B9BFF>#down</color> wheel</color>
 Script code written to:
 C:\Users\Leming\AppData\Roaming\hackmud\rodent\scripts\wheel.js
+
+<color=#9B9B9BFF>-terminal poweroff-
+</color>

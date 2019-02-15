@@ -1,0 +1,9 @@
+user hamtaro
+#down lurk
+user rodent
+#down hole
+#
+scripts.user
+#down sniff
+wheel
+#down wheel

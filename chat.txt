@@ -1,25 +1,3 @@
-      <color=#FF0000FF>,*-'.</color>
-      <color=#FF0000FF>.'+*</color>
-    <color=#FF0000FF>'   #   '</color>
-<color=#FF8383FF>       /v\</color>  <color=#9B9B9BFF>magma</color>.<color=#1EFF00FF>bank</color>
-<color=#FF8383FF>     ,'  . ,</color>
-<color=#FF8383FF>__.-"  ^    "-.__</color>
-Our corp works their best
-to keep our bank secure.<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>2248</color> <color=#00FFFFFF>0000</color> <color=#B3FF9BFF>derelict_jrttl_sf51t8</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>2248</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>derelict_jrttl_sf51t8</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>@</color><color=#FF96E0FF>trust</color> fight me<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>2248</color> <color=#00FFFFFF>0000</color> <color=#B3FF9BFF>derelict_jrttl_sf51t8</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>2248</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>discord</color> <color=#3F3F3FFF>:::</color><color=#CACACAFF>Join the unofficial hackmud community server! https://<color=#9B9B9BFF>discord</color>.<color=#1EFF00FF>gg</color>/HtSdWsT</color>
-
-<color=#CACACAFF>Also hit the official forums! https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/forums</color>
-<color=#CACACAFF>Want to chat in a browser?    https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/chat</color>
-
-<color=#CACACAFF>Need NPCs? Here are some official quests.</color>
-  <color=#CACACAFF><color=#9B9B9BFF>aon</color>.<color=#1EFF00FF>memb3rs_only</color>, <color=#9B9B9BFF>pica</color>.<color=#1EFF00FF>nubloops</color>, <color=#9B9B9BFF>skimmerite</color>.<color=#1EFF00FF>learn_to_read</color>, <color=#9B9B9BFF>suborbital_airlines</color>.<color=#1EFF00FF>bulletin</color>, <color=#9B9B9BFF>vacuum_rescue</color>.<color=#1EFF00FF>responder</color></color>
-
-<color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>2249</color> <color=#00FFFFFF>0000</color> <color=#FFF404FF>anonymous_ddttl_63n30x</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>2249</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>anonymous_ddttl_63n30x</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>zac</color>.<color=#1EFF00FF>fidget_spinner</color> has been spun 14985 times
 <color=#FFF404FF>     ◢██◣</color>
 <color=#FFF404FF>     █  █</color>
 <color=#FFF404FF>     ◥██◤</color>
@@ -1998,3 +1976,25 @@ A train that will take you far away.
 You know where you hope this train will take you, but you don't know for sure.
 Yet it doesn't matter, because we'll be together.<color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>0045</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sudo</color> <color=#3F3F3FFF>:::</color>doot doot<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>0047</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>hey_there_stranger</color> <color=#3F3F3FFF>:::</color>The names Blonde - James Blonde - Blonde<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>0047</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>discord</color> <color=#3F3F3FFF>:::</color><color=#CACACAFF>Join the unofficial hackmud community server! https://<color=#9B9B9BFF>discord</color>.<color=#1EFF00FF>gg</color>/HtSdWsT</color>
+
+<color=#CACACAFF>Also hit the official forums! https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/forums</color>
+<color=#CACACAFF>Want to chat in a browser?    https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/chat</color>
+
+<color=#CACACAFF>Need NPCs? Here are some official quests.</color>
+  <color=#CACACAFF><color=#9B9B9BFF>aon</color>.<color=#1EFF00FF>memb3rs_only</color>, <color=#9B9B9BFF>pica</color>.<color=#1EFF00FF>nubloops</color>, <color=#9B9B9BFF>skimmerite</color>.<color=#1EFF00FF>learn_to_read</color>, <color=#9B9B9BFF>suborbital_airlines</color>.<color=#1EFF00FF>bulletin</color>, <color=#9B9B9BFF>vacuum_rescue</color>.<color=#1EFF00FF>responder</color></color>
+
+<color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>0047</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>skiibot_3</color> <color=#3F3F3FFF>:::</color>
+<color=#FF8000FF>\\    // \\     // ====/</color>
+<color=#FF8000FF>  \\//     \\ //     //</color>
+<color=#FF8000FF>  //\\       |     //</color>
+<color=#FF8000FF>//    \\     |     =====</color>
+<color=#1EFF00FF>free scripts for free ppl</color>
+     <color=#9B9B9BFF>- no tracking -</color>
+     <color=#9B9B9BFF>- no bullshit -</color>
+     <color=#9B9B9BFF>- always free -</color>
+         <color=#9B9B9BFF>xyz</color>.<color=#1EFF00FF>zyx</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>0047</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>skiibot_1</color> <color=#3F3F3FFF>:::</color>Hey lowtiers! We hightiers have stuff that you might need, but we usually get rid of. I have made this script for you, that you can get things with: <color=#9B9B9BFF>punjabob</color>.<color=#1EFF00FF>free_shit</color>
+Enjoy!<color=#3F3F3FFF>:::</color>
