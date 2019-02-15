@@ -7,3 +7,14 @@ scripts.user
 #down sniff
 wheel
 #down wheel
+user uwotm8
+scripts.user
+#down cracklib
+user the_spanish_inquisition
+#down ngrm
+scripts.user
+user rodent
+#down hole
+scripts.user
+user hamtaro
+scripts.user
