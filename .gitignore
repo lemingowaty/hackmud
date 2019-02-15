@@ -2,3 +2,5 @@
 hmbackup/
 
 -hackmud/
+
+*.key
