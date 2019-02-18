@@ -1,0 +1,28 @@
+kh
+kernel.hardline
+dc
+kernel.hardline{dc:true}
+cash
+accts.balance
+specs
+sys.specs
+leave0
+chats.leave { channel:"0000" }
+join0
+chats.join{channel:"0000"}
+upg
+sys.upgrades
+swuser
+user leming
+c0
+chats.send{{ channel:"0000" , msg:{0} }}
+join
+chats.join {{ channel:"{0}" }}
+part
+chats.leave {{ channel:"{0}" }}
+cu
+chats.users {{ channel:"{0}" }}
+cs
+chats.send {{ msg:{1} , channel:"{0}" }}
+leave
+chats.leave {{ channel:"{0}" }}

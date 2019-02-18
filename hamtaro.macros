@@ -1,0 +1,6 @@
+cash
+accts.balance
+specs
+sys.specs
+kh
+kernel.hardline{ confirm: true }
