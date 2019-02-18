@@ -4,13 +4,12 @@ let B = #fs.scripts.lib()
 , channel , list
 ,{ sector ,  level ,
    channels ,  join ,	leave  
-	} = A || {}
+} = A || {}
 , setSector = _=>{
 		list = level.call()
 		sector = list[sector] 	
 	}
 , WTFis = O=>O.constructor.name
-;
 level = (_=>{
 		switch (level){
 		default: return ({ call:q=>( #fs.scripts.fullsec(q) ) })

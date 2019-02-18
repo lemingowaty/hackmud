@@ -1,0 +1,72 @@
+kh
+kernel.hardline
+dc
+kernel.hardline{dc:true}
+cash
+accts.balance
+gl
+scripts.get_level {{ name:"{0}" }}
+upg
+os{func:"showUpgrades"}
+aclog
+sys.access_log {{ {0} }}
+upginfo
+sys.upgrades{{ i:[{0}] , full:true }}
+ul
+sys.manage{{ unload:[{0}] }}
+lu
+sys.manage{{ load:[{0}] }}
+upgreorder
+sys.manage{{ reorder:{{from:{0} , to:{1} }} }}
+showmykeys
+sys.upgrades{filter:{k3y:{"$ne":true}}, full:true}
+myscripts
+scripts.user
+specs
+sys.specs
+cjoin
+chats.join {{ channel:"{0}" }}
+cusers
+chats.users {{ channel:"{0}" }}
+mychannels
+chats.channels
+lastactive
+users.last_action{{name:"{0}"}}
+cpart
+chats.leave{{channel:"{0}"}}
+crt
+gui.vfx {{ {0} }}
+getscripts
+os{{func:"getXSec" , level:{0} , sector:"{1}" }}
+quiet
+gui.vol{ sfx:0 , bgm:0 }
+vol
+gui.vol{{ sfx:{0} , bgm:{1} }}
+getsectors
+os{{func:"getXSec" , level:{0} }}
+cullupgAB
+os{{func:"cullUpgRange", a:{0} , b:{1} }}
+fullupg
+sys.upgrades{full:true}
+reorder
+sys.manage{{reorder:{{from:{0},to:{1} }} }}
+econ
+escrow.confirm{{ i:"{0}" , confirm:true }}
+csend
+chats.send {{ channel:"{0}", msg:{1} }}
+ink
+ink{{T:#s.{0}.public}}
+osfunc
+os{{func:"{0}"}}
+last
+users.last_action {{name:"{0}"}}
+log
+sys.access_log
+actx
+accts.transactions{{ count:{0} }}
+gal
+scripts.get_access_level{{name:"{0}"}}
+lurk
+lurk{{T:#s.{0}.public , p:"{1}"}}
+lur
+lurk{{T:#s.{0}.public}}
