@@ -1,0 +1,40 @@
+gl
+scripts.get_level {{ name:"{0}" }}
+kh
+kernel.hardline{ confirm:true }
+st1
+uwotm8.unic {{ T:#s.{0}.public, p:"{1}" }}
+dc
+kernel.hardline{dc:true}
+vol
+gui.vol {{ sfx:{0},bgm:{1} }}
+hit
+uwotm8.tryhard{{ T:#s.{0} }}
+st1d
+uwotm8.unic {{ T:#s.{0}.public, p:"{1}" ,d:{2} }}
+mbuyx
+market.buy{{ i:"{0}" , confirm:true, count:{1} }}
+minfo
+market.browse{{ i:"{0}" }}
+mbuy
+market.buy{{ i:"{0}" , confirm:true , count:1 }}
+specs
+sys.specs
+wallet
+accts.balance
+upglist
+blank.os{func:"showUpgrades"}
+gal
+scripts.get_access_level {{ name:"{0}" }}
+vscale
+gui.size {{ i:{0} }}
+0000
+chats.send{{channel:"0000", msg:{0} }}
+0001
+chats.send{{channel:"0001", msg:{0} }}
+town
+chats.send{{channel:"town",msg:{0} }}
+snifftmp
+sniff{ channels:#s.chats.channels , join:#s.chats.join , leave:#s.chats.leave }
+ui
+sys.upgrades {{ i:{0} , full:true }}

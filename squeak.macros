@@ -1,0 +1,132 @@
+kh
+kernel.hardline
+dc
+kernel.hardline{dc:true}
+cash
+accts.balance
+specs
+sys.specs
+leave0
+chats.leave { channel:"0000" }
+join0
+chats.join{channel:"0000"}
+upg
+sys.upgrades
+c
+chats.send{{channel:"0000", msg:{0}}}
+cusers
+chats.users{{channel:"{0}"}}
+leave
+chats.leave {{ channel:"{0}" }}
+join
+chats.join {{ channel:"{0}" }}
+cu
+chats.users {{ channel:"{0}" }}
+upi
+sys.upgrades {{ info:{0} }}
+st1d
+unic {{ t:#s.{0}.public , d:4 , p:"{1}" , vname:"T1Npclist" }}
+kasa
+accts.balance{}
+log
+sys.access_log
+gl
+scripts.get_level {{ name : "{0}" }}
+lu
+sys.manage{{ load:[{0}] }}
+ul
+sys.manage{{ unload:[{0}] }}
+ui
+sys.upgrades{{ i:[{0}] , full:true }}
+uorder
+sys.upgrades {{ reorder:{0} }}
+status
+sys.status
+uord
+sys.manage {{ reorder:[{0}] }}
+last
+users.last_action {{ name:"{0}" }}
+ct
+chats.tell {{ to:"{0}" , msg:{1} }}
+draw
+jade.vita {{ withdraw:"{0}", instant:{1} }}
+dep
+jade.vita {{ deposit:"{0}", instant:{1} }}
+active
+users.active
+crack
+uwotm8.boom{{ t:#s.{0}, d:1 }}
+econ
+escrow.confirm {{ i:"{0}" , confirm:true }}
+depall
+jade.vita{deposit:#s.accts.balance,instant:1}
+top
+users.top
+chat
+squeak.hq{{choice:2 , msg:{0} }}
+alice
+vdd.alice{{ details:"{0}" }}
+bname
+market.browse{{ name:"{0}" }}
+withdraw
+jade.vita{{ withdraw:"{0}", instant:{1} }}
+mbuy
+market.buy{{ i:"{0}", count:{1},confirm:true }}
+minfo
+market.buy{{ i:"{0}" }}
+del
+uwotm8.deleter{{ a:{0}, b:{1} }}
+cs
+chats.send {{ channel:"{0}", msg:{1} }}
+adat2
+ada.allsec{npc:true, level:3}
+addadd
+vdd.alice{{ add:"{0}" }}
+msell
+market.sell {{ i:{0} , cost:"{1}GC", confirm:true }}
+msellx
+market.sell {{ i:{0} , cost:"{1}GC", confirm:true , count:{2} }}
+jdepo
+jade.vita{{ deposit:"{0}" }}
+keys
+sys.upgrades{filter:{k3y:{"$ne":false} }, full:true }
+swap
+sys.manage{{ unload:[{0}] , load:[{1}] }}
+bank
+jade.vita{ deposit:#s.accts.balance , xfer:#s.accts.xfer_gc_to }
+uo
+sys.manage {{ reorder : {{ from:{0} , to:{1} }} }}
+txa
+accts.transactions{}
+vol
+gui.vol{{ {0} }}
+crt
+gui.vfx{{ {0} }}
+sorter
+uwotm8.sorter
+scankeys
+uwotm8.debby{cmd:"scankey"}
+st1
+uwotm8.unic {{ T:#s.{0}.public , d:3 , p:"{1}" }}
+part
+chats.leave{{channel:"{0}"}}
+cashlog
+accts.transactions
+channels
+chats.channels
+users
+chats.users {{ channel:"{0}" }}
+checksect
+hq{{sector:"{0}",sl:"all"}}
+sectorlist
+scripts.fullsec
+sectors
+scripts.fullsec
+checks
+hq{{sector:"{0}",sl:"all"}}
+chatch
+squeak.hq{{choice:2 , channel:"{0}" }}
+chatcol
+squeak.hq{{choice:2 , color:"{0}" }}
+gal
+scripts.get_access_level {{ name:"{0}" }}
