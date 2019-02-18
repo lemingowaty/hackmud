@@ -8,4 +8,6 @@ hmbackup/
 chat.txt
 *.txt
 
-rodent/scripts/hole\.down\.js
+*\.down.js
+*.down.js
+*down.js
