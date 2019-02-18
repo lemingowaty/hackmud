@@ -1,25 +1,11 @@
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
 
-# Folder config file
-Desktop.ini
+hmbackup/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+-hackmud/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+*.key
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
 chat.txt
-chat.txt
+*.txt
+
+rodent/scripts/hole\.down\.js
