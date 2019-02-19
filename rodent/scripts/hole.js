@@ -54,8 +54,8 @@ function(C, A) {
         break
       case "dbr": // !!!REMOVE!!!
         if (stf(q) == stf({}) && A.ok === pw) X = #db.r({})
-         else if (stf(q) == stf({})) X = "This will delete the whole database! Are you sure?" //Sanity Check 
-          else X = #db.r(q)
+        else if ( stf(q) == stf({}) ) X = "This will delete the whole database! Are you sure?" //Sanity Check
+        else X = #db.r(q)
     }
     return { c, q, u, a, C, X }
   }

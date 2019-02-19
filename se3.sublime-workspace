@@ -1,0 +1,620 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stamp",
+				"stampU\t(O: any) => any"
+			],
+			[
+				"defin",
+				"defineProperty\t<T>(o: any, p: any, attributes: PropertyDescriptor<T>) => any"
+			],
+			[
+				"get",
+				"getOwnPropertyNames\t(o: any) => Array<string>"
+			],
+			[
+				"toJ",
+				"toJSON"
+			],
+			[
+				"ind",
+				"indexOf\t( searchElement: any, fromIndex?: int ): int Array"
+			],
+			[
+				"function",
+				"Function\t( paramsAndBody_..: string ): Function Function"
+			],
+			[
+				"for",
+				"forEach"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 236.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				"git: checkout"
+			],
+			[
+				"gits",
+				"git: status"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"githu",
+				"GitHubinator"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"g",
+				"Git GUI Clients: Gitk"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"gitsav",
+				"Preferences: GitSavvy Settings"
+			],
+			[
+				"gitsa",
+				"GitSavvy: help"
+			],
+			[
+				"diff",
+				"Diffy Cleanup"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"brack",
+				"BracketHighlighter: Settings"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				":e",
+				":$ - EOF"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"brac",
+				"BracketHighlighter: Settings"
+			],
+			[
+				"high v",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"visibl",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"highli",
+				"BracketHighlighter: Settings"
+			],
+			[
+				"high vis",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"new file",
+				"File: New View into File"
+			],
+			[
+				"hexvi",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"hex",
+				"StringEncode: Unicode to Hexadecimal"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"encod",
+				"StringEncode: Hexadecimal to Decimal"
+			],
+			[
+				"plaint",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"hexa",
+				"StringEncode: Unicode to Hexadecimal"
+			],
+			[
+				"ec",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"toggle hex",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"set syntax pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"space",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"toggle",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wri",
+				"BracketHighlighter: Select Bracket Content with Brackets"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"edit",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"dif",
+				"Diffy Compare"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"bra",
+				"BracketHighlighter: Settings"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable\tp",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Anonymous Function"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 119.0,
+		"history":
+		[
+			"help",
+			"test",
+			"delete",
+			"delete (\"test\")",
+			"delete \"test\"",
+			"delete (test)",
+			"delete test;",
+			"delete test",
+			"test",
+			"test= 0",
+			"PackageResourceViewer:Open Resource:",
+			"PackageResourceViewer(\"Open Resource\")",
+			"PackageResourceViewer(Open Resource)",
+			"help()",
+			"help",
+			"0_package_control_loader;",
+			"0_package_control_loaderl",
+			"0_package_control_loader",
+			"PackageResourceViewer",
+			"PackageResourceViewer:Open Resource:",
+			"PackageResourceViewer: Open Resource:",
+			"`PackageResourceViewer: Open Resource`:",
+			"PackageResourceViewer",
+			"PackageResourceViewer `1337_Color_Scheme.sublime-package`",
+			"PackageResourceViewer \"1337_Color_Scheme.sublime-package\"",
+			"PackageResourceViewer 1337_Color_Scheme.sublime-package",
+			"PackageResourceViewer 1337 Color Scheme.sublime-package",
+			"PackageResourceViewer:1337 Color Scheme.sublime-package",
+			"PackageResourceViewer:C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package:",
+			"PackageResourceViewer(C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package)",
+			"PackageResourceViewer: C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package:",
+			"PackageResourceViewer C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package:",
+			"`PackageResourceViewer`:C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package:",
+			"`PackageResourceViewer`:C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package",
+			"PackageResourceViewer:C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package",
+			"PackageResourceViewer: C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package",
+			"PackageResourceViewer: \"C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package\"",
+			"PackageResourceViewer: \"C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package",
+			"PackageResourceViewer: \"C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\"",
+			"PackageResourceViewer: C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages",
+			"`PackageResourceViewer`:",
+			"PackageResourceViewer:",
+			"`PackageResourceViewer: Open Resource`",
+			"PackageResourceViewer: Open Resource",
+			"`PackageResourceViewer: Extract Package: C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package",
+			"`PackageResourceViewer: Extract Package`: C:\\Users\\Leming\\AppData\\Roaming\\Sublime Text 3\\Installed Packages\\1337 Color Scheme.sublime-package",
+			"`PackageResourceViewer: Extract Package`: \"1337 Color Scheme.sublime-package\"",
+			"`PackageResourceViewer: Extract Package`: 1337 Color Scheme.sublime-package",
+			"`PackageResourceViewer: Extract Package`: "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Leming/AppData/Roaming/hackmud"
+	],
+	"file_history":
+	[
+		"/C/Users/Leming/AppData/Roaming/hackmud/leming/scripts/tryhard.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/blank/scripts/ink.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/draft.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/hold.old.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/hole.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/hole.down.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/sniff.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/the_spanish_inquisition/scripts/ngrm.js",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/Leming/Pictures/Gify/https _www.hackmud.com_assets_application-6cf47b2ec506b9509dff39f38ef5d8487f26d60887e9584c8d38848756b61db2.css",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/C/Users/Leming/Documents/My Games/EXAPUNKS/76561198041746047/equity-first-bank-1.solution",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/HexViewer/Default (Windows).sublime-keymap",
+		"/C/Users/Leming/Documents/My Games/EXAPUNKS/76561198041746047/trash-world-news-2.solution",
+		"/C/Users/Leming/Documents/My Games/EXAPUNKS/76561198041746047/unknown-network-1-3.solution",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/tester.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/board.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/wheel.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/rodent/scripts/wheel.down.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/blank/scripts/hit.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/blank/scripts/os.js",
+		"/C/Users/Leming/Downloads/javascript_jsc.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/the_spanish_inquisition/scripts/conspiracy.js",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/hackmud/the_spanish_inquisition/scripts/ngrm.down.js",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/hackmud/the_spanish_inquisition/scripts/magnara.down.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/blank/scripts/disk.js",
+		"/C/Users/Leming/Downloads/Torrent/Singularity-RELOADED/reloaded.nfo",
+		"/C/Users/Leming/Downloads/Telegram Desktop/cardsAgainst.py",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/tryhard.down.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/blank/scripts/os.down.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/unic.js",
+		"/C/Users/Leming/Downloads/Torrent/Warhammer.40.000.Dawn.of.War.II.Gold.Edition.MULTi9.REPACK-PROPHET/prophet.nfo",
+		"/C/Users/Leming/AppData/Roaming/hackmud/leming/scripts/fyio.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/blank/scripts/dashboard.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/debby.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/leming/scripts/nowyskrypt.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/unic.down.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/leming/scripts/self.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/leming/scripts/lemlib.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/leming/scripts/dater.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/tryhard.js",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/hackmud/the_spanish_inquisition/scripts/returner.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/bbcentral.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/kapybara.macros",
+		"/C/Users/Leming/OneDrive/hackmud/kapybara.macros",
+		"/C/Users/Leming/OneDrive/HMSCP/brudnopis/funkcje.js",
+		"/C/Users/Leming/Dysk Google/C/workspace/1/4.c",
+		"/C/Users/Leming/Dysk Google/C/workspace/1/1src.c",
+		"/C/Users/Leming/Dysk Google/C/workspace/3/1.c",
+		"/C/Users/Leming/AppData/Roaming/Wyrmkeep/Inherit the Earth Data/ite.prf",
+		"/D/Piotr Dobrzyński podstawz programowania/zadania zrobione/1/2src.c",
+		"/C/Users/Leming/Dysk Google/C/workspace/4i5/2.c",
+		"/C/msys64/etc/gdbinit",
+		"/C/msys64/etc/config.site",
+		"/C/Users/Leming/Dysk Google/C/parse/how",
+		"/C/Users/Leming/OneDrive/HMSCP/menago.js",
+		"/C/Users/Leming/OneDrive/HMSCP/debby.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/squeak/scripts/skim.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/squeak/scripts/hq.js",
+		"/C/Users/Leming/OneDrive/HMSCP/uwotm8/scripts/parser.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/squeak/scripts/hq.down.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/squeak/scripts/skim.down.js",
+		"/C/msys64/etc/fstab",
+		"/C/Users/Leming/AppData/LocalLow/DrizzlyBear/hackmud/Unity/a18addf5-6e65-43fd-b5d0-f0386538a772/Analytics/config",
+		"/C/Users/Leming/Downloads/Telegram Desktop/x.c",
+		"/C/Users/Leming/OneDrive/HMSCP/uwotm8/scripts/unic.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/leming/scripts/menago.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/squeak/scripts/newfile.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/squeak/scripts/bot_brain.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/shell.txt",
+		"/C/Users/Leming/AppData/LocalLow/DrizzlyBear/hackmud/Unity/a18addf5-6e65-43fd-b5d0-f0386538a772/Analytics/values",
+		"/C/Users/Leming/AppData/Roaming/hackmud/squeak/scripts/newfile.down.js",
+		"/D/Gry/cpy-demd/cpy-demd.nfo",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/PackageResourceViewer/README.md",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Installed Packages/1337 Color Scheme.sublime-package",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/sorter.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/kapybara/scripts/conspiracy.js",
+		"/C/Users/Leming/AppData/Roaming/hackmud/uwotm8/scripts/boom.js",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/FoldJsFunctions/Default (Windows).sublime-keymap",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/User/foldfunctions.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/FoldJsFunctions/foldfunctions.sublime-settings",
+		"/C/Users/Leming/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"v",
+			"text",
+			"B8",
+			" ,\tout : #db.f(q).first() }",
+			"DN()",
+			"Date.now"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Leming\\AppData\\Roaming\\hackmud"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 59.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 91.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 97.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 73.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"()=>"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

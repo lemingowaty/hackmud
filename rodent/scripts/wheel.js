@@ -1,13 +1,21 @@
 function(C,A){
 
-let { t:T=($=>{throw Error("No Target")})() } = A = A || { }
-, WTFis = $=>$.constructor.name
-if (WTFis(T)!=="Object"){throw Error("Not an Object")}
-T.calls = []
-T.counter = 0
-Object.defineProperty(T.calls,"-1", {
+let { t:
+	T = ( A.T || ( $=>{throw Error("No Target")} )() ) 
+ } = A = A || { } 
+, { call , name } = T
+, knock = _=>{
+  	let A = call(_)
+	  T.list.push({
+	   A , Q:(JSON.stringify(_)||null) ,
+		 type:A.constructor.name , id:T.timesCalled++ 
+	 })
+	 return  A }//\knock
+//\let
+T.list = []
+T.timesCalled = 0
+knock()
+knock({})
 
-})
-
-return { debug , T }
+return T
 }
