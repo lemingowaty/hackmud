@@ -4,9 +4,9 @@ function(C, A) {
   sudo = ["rodent","uwotm8","hamtaro","the_spanish_inquisition"],
   { p , c , q , a , u = {} } = A = (A) ? A : {},
   v = (
-    (_ => (sudo.indexOf(C.caller)+1) ? 2 :
-      ((p === pw) ? 1 : 0)
-    )()
+      (_=>(sudo.indexOf(C.caller)+1) ? 2 :
+        ( (p === pw) ? 1 : 0 ) 
+      )()
   ),
   Stamp = _=>(
     {
