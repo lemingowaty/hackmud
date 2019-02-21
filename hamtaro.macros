@@ -4,3 +4,5 @@ specs
 sys.specs
 kh
 kernel.hardline{ confirm: true }
+dc
+kernel.hardline{ dc:true }
