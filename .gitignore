@@ -5,3 +5,4 @@ hmbackup/
 *.down.js
 *down.js
 settings
+*.swp

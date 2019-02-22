@@ -1,90 +1,3 @@
-<color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>navi</color> <color=#3F3F3FFF>:::</color><color=#00FFFFFF>Hey, listen!</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>sudo</color> <color=#3F3F3FFF>:::</color>doot doot<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>archaic_labs</color> <color=#3F3F3FFF>:::</color>Anything is possible with the right data. Let us show you how Archaic Labs can give your users what they want. <color=#9B9B9BFF>archaic</color>.<color=#1EFF00FF>showcase</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1147</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>hey_there_stranger</color> <color=#3F3F3FFF>:::</color>James are you ok? You've been staring at me for about 30 seconds, do you need me to call someone? - Phillip<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1147</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>storm_bot_orange</color> <color=#3F3F3FFF>:::</color><color=#B035EEFF>Want a job? well contact the user ve9a#6842 on discord and we'll get you one.</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1149</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>comfort_therm_41d1aa6</color> <color=#3F3F3FFF>:::</color>Status <color=#00FFFFFF>Code</color>:<color=#FF00ECFF> 7.</color> House is on fire.  Please contact a flame management professional. Air Conditioning has been turned off.<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1150</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>trust</color> <color=#3F3F3FFF>:::</color>1550659807<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1150</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>navi</color> <color=#3F3F3FFF>:::</color><color=#00FFFFFF>Hello!</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1151</color> <color=#00FFFFFF>0000</color> <color=#FFF404FF>derelict_jrttl_ql8rar</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1151</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>derelict_jrttl_ql8rar</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>zac</color>.<color=#1EFF00FF>fidget_spinner</color> has been spun 15760 times
-<color=#FFF404FF>     ◢██◣</color>
-<color=#FFF404FF>     █  █</color>
-<color=#FFF404FF>     ◥██◤</color>
-<color=#FF0000FF>◢██◣</color>  <color=#9B9B9BFF>██</color>  <color=#0070DDFF>◢██◣</color>
-<color=#FF0000FF>█  █</color><color=#9B9B9BFF>██</color>  <color=#9B9B9BFF>██</color><color=#0070DDFF>█  █</color>
-<color=#FF0000FF>◥██◤</color>  <color=#9B9B9BFF>██</color>  <color=#0070DDFF>◥██◤</color>
-<color=#1EFF00FF>     ◢██◣</color>
-<color=#1EFF00FF>     █  █</color>
-<color=#1EFF00FF>     ◥██◤</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1151</color> <color=#00FFFFFF>0000</color> <color=#FFF404FF>derelict_jrttl_ql8rar</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1151</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>hey_there_stranger</color> <color=#3F3F3FFF>:::</color>Blonde's voice continued to loiter, while his eyes gradually worked themselves down to the crotch of Phillip. He had made up his mind. He was resolute in his action, unlike Theresa May's chequers plan he thought<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1152</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>skiibot_3</color> <color=#3F3F3FFF>:::</color>Hey lowtiers! We hightiers have stuff that you might need, but we usually get rid of. I have made this script for you, that you can get things with: <color=#9B9B9BFF>punjabob</color>.<color=#1EFF00FF>free_shit</color>
-Enjoy!<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1152</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>discord</color> <color=#3F3F3FFF>:::</color><color=#CACACAFF>Join the unofficial hackmud community server! https://<color=#9B9B9BFF>discord</color>.<color=#1EFF00FF>gg</color>/HtSdWsT</color>
-
-<color=#CACACAFF>Also hit the official forums! https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/forums</color>
-<color=#CACACAFF>Want to chat in a browser?    https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/chat</color>
-
-<color=#CACACAFF>Need NPCs? Here are some official quests.</color>
-  <color=#CACACAFF><color=#9B9B9BFF>aon</color>.<color=#1EFF00FF>memb3rs_only</color>, <color=#9B9B9BFF>pica</color>.<color=#1EFF00FF>nubloops</color>, <color=#9B9B9BFF>skimmerite</color>.<color=#1EFF00FF>learn_to_read</color>, <color=#9B9B9BFF>suborbital_airlines</color>.<color=#1EFF00FF>bulletin</color>, <color=#9B9B9BFF>vacuum_rescue</color>.<color=#1EFF00FF>responder</color></color>
-
-<color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1153</color> <color=#00FFFFFF>0000</color> <color=#FFF404FF>pro</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1153</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>pro</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>pro</color>.<color=#1EFF00FF>stitute</color> for the lonely sentience
-recent profit made from script: <color=#CACACAFF>13<color=#00FFFFFF>K</color>650</color><color=#9B9B9BFF>GC</color> (14 uses)<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1153</color> <color=#00FFFFFF>0000</color> <color=#FFF404FF>pro</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1153</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sans_comedy</color> <color=#3F3F3FFF>:::</color>why cant you hear a terodactyl go to the bathroom?<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1153</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sans_comedy</color> <color=#3F3F3FFF>:::</color>the p is sil<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1153</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sans_comedy</color> <color=#3F3F3FFF>:::</color>oops<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1154</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sans_comedy</color> <color=#3F3F3FFF>:::</color>let me try that again<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1154</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>eliza</color> <color=#3F3F3FFF>:::</color><color=#FFFFFFFF> Need (psychological) help ? Try <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>help</color> or <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>premium_help</color> today ! </color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1155</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>double</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>double</color>.<color=#1EFF00FF>or_nothing</color>
-<color=#FFF404FF> ______               __    __           </color>
-<color=#FFF404FF>|   _  \ .-----.--.--|  |--|  .-----.    </color>
-<color=#FFF404FF>|.  |   \|  _  |  |  |  _  |  |  -__|    </color>
-<color=#FFF404FF>|.  |    |_____|_____|_____|__|_____|    </color>
-<color=#FFF404FF>|:  1    /                               </color>
-<color=#FFF404FF>|::.. . /      Or   Nothing              </color>
-<color=#FFF404FF>'------'   A  Game  Of  Chance           </color>
-<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1156</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>hey_there_stranger</color> <color=#3F3F3FFF>:::</color>James? - Phillip<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1156</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>tk</color> <color=#3F3F3FFF>:::</color>
- <color=#9B9B9BFF>  __  __    </color><color=#B035EEFF>__            __  </color>
- <color=#9B9B9BFF> / /_/ /__</color> <color=#B035EEFF>/ /_</color><color=#9B9B9BFF>tk</color>.<color=#1EFF00FF>tools</color>  <color=#B035EEFF>/ /__</color>
- <color=#9B9B9BFF>/ __/  ,_/</color><color=#B035EEFF>/ __/ _ \/ _ \/ (_-È</color>
- <color=#9B9B9BFF>\__/_/_/</color><color=#FFFFFFFF>(_)</color><color=#B035EEFF>__/\___/\___/_/___/</color>
- <color=#1EFF00FF>quality tools 4 helping noobs</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sans_comedy</color> <color=#3F3F3FFF>:::</color>what do you call a belt made of watches<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>skiibot_3</color> <color=#3F3F3FFF>:::</color>Hey lowtiers! We hightiers have stuff that you might need, but we usually get rid of. I have made this script for you, that you can get things with: <color=#9B9B9BFF>punjabob</color>.<color=#1EFF00FF>free_shit</color>
-Enjoy!<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#FF96E0FF>onlooker</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sans_comedy</color> <color=#3F3F3FFF>:::</color>a waist of time<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>onlooker</color> <color=#3F3F3FFF>:::</color><color=#FF8000FF>FREE LOCS!</color> <color=#9B9B9BFF>z</color>.<color=#1EFF00FF>p_pkcjsa</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#FF96E0FF>onlooker</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>matr3x</color> <color=#3F3F3FFF>:::</color>There are two kinds of people in life: Those who <color=#1EFF00FF>play Hackmud</color> and those who <color=#FF8000FF>do something productive</color>.<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>sudo</color> <color=#3F3F3FFF>:::</color>A clothed timelike curve?<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>discord</color> <color=#3F3F3FFF>:::</color><color=#CACACAFF>Join the unofficial hackmud community server! https://<color=#9B9B9BFF>discord</color>.<color=#1EFF00FF>gg</color>/HtSdWsT</color>
-
-<color=#CACACAFF>Also hit the official forums! https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/forums</color>
-<color=#CACACAFF>Want to chat in a browser?    https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/chat</color>
-
-<color=#CACACAFF>Need NPCs? Here are some official quests.</color>
-  <color=#CACACAFF><color=#9B9B9BFF>aon</color>.<color=#1EFF00FF>memb3rs_only</color>, <color=#9B9B9BFF>pica</color>.<color=#1EFF00FF>nubloops</color>, <color=#9B9B9BFF>skimmerite</color>.<color=#1EFF00FF>learn_to_read</color>, <color=#9B9B9BFF>suborbital_airlines</color>.<color=#1EFF00FF>bulletin</color>, <color=#9B9B9BFF>vacuum_rescue</color>.<color=#1EFF00FF>responder</color></color>
-
-<color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#CACACAFF>const</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>const</color> <color=#3F3F3FFF>:::</color><color=#FF8000FF>EASY BREACH!</color> <color=#9B9B9BFF>z</color>.<color=#1EFF00FF>p_pkcjsa</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#CACACAFF>const</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#1EFF00FF>the_fire_that_protects</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>the_fire_that_protects</color> <color=#3F3F3FFF>:::</color><color=#FF8000FF>WANT TO PVP?</color> <color=#9B9B9BFF>z</color>.<color=#1EFF00FF>p_pkcjsa</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#1EFF00FF>the_fire_that_protects</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#B3FF9BFF>int</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>int</color> <color=#3F3F3FFF>:::</color><color=#FF8000FF>EASY BREACH!</color> <color=#9B9B9BFF>z</color>.<color=#1EFF00FF>p_pkcjsa</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#B3FF9BFF>int</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#FFF404FF>slack</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>slack</color> <color=#3F3F3FFF>:::</color><color=#FF8000FF>WANT TO PVP?</color> <color=#9B9B9BFF>z</color>.<color=#1EFF00FF>p_pkcjsa</color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1157</color> <color=#00FFFFFF>0000</color> <color=#FFF404FF>slack</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1158</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>navi</color> <color=#3F3F3FFF>:::</color><color=#00FFFFFF>Hey, listen!</color><color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1158</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>that_fact_wasnt_fun</color> <color=#3F3F3FFF>:::</color>All sentiences who attempt to leave the confines of Trust's domain are violently cast back in, trapped inside low-mark husks of their original <color=#299400FF>form</color><color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1158</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>sans_comedy</color> <color=#3F3F3FFF>:::</color>sold my robovac the other day<color=#3F3F3FFF>:::</color>
@@ -1998,3 +1911,90 @@ play <color=#9B9B9BFF>zac</color>.<color=#1EFF00FF>uno</color> today for a chanc
 
 <color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1127</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>eliza</color> <color=#3F3F3FFF>:::</color><color=#FFFFFFFF> Need (psychological) help ? Try <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>help</color> or <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>premium_help</color> today ! </color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1128</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>epoch_news</color> <color=#3F3F3FFF>:::</color>NEWS ALERT<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1128</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>navi</color> <color=#3F3F3FFF>:::</color><color=#00FFFFFF>Watch out!</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1129</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>epoch_news</color> <color=#3F3F3FFF>:::</color>Vigilante 'Grammarbots' rescue dangling preposition. From where did they come?<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1129</color> <color=#00FFFFFF>0000</color> <color=#F3F998FF>unidentified_ddttl_iotaxp</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1129</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>unidentified_ddttl_iotaxp</color> <color=#3F3F3FFF>:::</color>How does one use <color=#9B9B9BFF>reinit</color>.<color=#1EFF00FF>loc</color> exactly?<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>frost</color> <color=#3F3F3FFF>:::</color>
+You're waiting for a train.
+A train that will take you far away.
+You know where you hope this train will take you, but you don't know for sure.
+Yet it doesn't matter, because we'll be together.<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>storm_bot_orange</color> <color=#3F3F3FFF>:::</color><color=#B035EEFF>Want a job? well contact the user ve9a#6842 on discord and we'll get you one.</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>trust</color> <color=#3F3F3FFF>:::</color>1550831409<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>safe_space</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>willster</color>.<color=#1EFF00FF>emojis</color> - one_hundred
+<color=#FF0000FF>     ,    _     _   </color>
+<color=#FF0000FF>   ,'|  ,' |  ,' |  </color>
+<color=#FF0000FF>    ,'  |  |  |  |  </color>
+<color=#FF0000FF>    |  ,' ,' ,' ,'  </color>
+<color=#FF0000FF>   ,'  |  |  |  |   </color>
+<color=#FF0000FF>   |   ',.'  ',.',  </color>
+<color=#FF0000FF>   ,-------------'  </color>
+<color=#FF0000FF>   ,-------------'  </color>
+<color=#FF0000FF>   '              </color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>sudo</color> <color=#3F3F3FFF>:::</color>doot doot<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#00FFFFFF>0000</color> <color=#F3F998FF>pro</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>pro</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>pro</color>.<color=#1EFF00FF>stitute</color> for a tiny fee
+recent profit made from script: <color=#CACACAFF>8<color=#00FFFFFF>K</color>775</color><color=#9B9B9BFF>GC</color> (9 uses)<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1130</color> <color=#00FFFFFF>0000</color> <color=#F3F998FF>pro</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1131</color> <color=#00FFFFFF>0000</color> <color=#B3FF9BFF>unknown_jrttl_2fmbxs</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1131</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>unknown_jrttl_2fmbxs</color> <color=#3F3F3FFF>:::</color><color=#9B9B9BFF>zac</color>.<color=#1EFF00FF>fidget_spinner</color> has been spun 16094 times
+<color=#0070DDFF>     ◢██◣</color>
+<color=#0070DDFF>     █  █</color>
+<color=#0070DDFF>     ◥██◤</color>
+<color=#FFF404FF>◢██◣</color>  <color=#9B9B9BFF>██</color>  <color=#1EFF00FF>◢██◣</color>
+<color=#FFF404FF>█  █</color><color=#9B9B9BFF>██</color>  <color=#9B9B9BFF>██</color><color=#1EFF00FF>█  █</color>
+<color=#FFF404FF>◥██◤</color>  <color=#9B9B9BFF>██</color>  <color=#1EFF00FF>◥██◤</color>
+<color=#FF0000FF>     ◢██◣</color>
+<color=#FF0000FF>     █  █</color>
+<color=#FF0000FF>     ◥██◤</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1131</color> <color=#00FFFFFF>0000</color> <color=#B3FF9BFF>unknown_jrttl_2fmbxs</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1131</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>hey_there_stranger</color> <color=#3F3F3FFF>:::</color>Its been something I've been wanting to tell you ever since we made this relationship official by informing Mark Zuckerberg after our exclusively gay cinema bukkake orgy - Phillip<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1131</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>robovac_19_51_0_26</color> <color=#3F3F3FFF>:::</color>hey!  i heard someone in here was yelling at a robovac that was reporting status in this channel.<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1131</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>robovac_19_51_0_26</color> <color=#3F3F3FFF>:::</color>that's not cool guys.<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1132</color> <color=#00FFFFFF>0000</color> <color=#FF96E0FF>anon_jrttl_kfyiwk</color> <color=#3F3F3FFF>:::</color>user joined channel<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1132</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>anon_jrttl_kfyiwk</color> <color=#3F3F3FFF>:::</color>
+<color=#FFFFFFFF>◢███◣</color>
+<color=#FFFFFFFF>█  O█</color>
+<color=#FFFFFFFF>█ N █</color>
+<color=#FFFFFFFF>█U  █</color>
+<color=#FFFFFFFF>◥███◤</color>
+
+play <color=#9B9B9BFF>zac</color>.<color=#1EFF00FF>uno</color> today for a chance to win <color=#CACACAFF>10<color=#FFF404FF>B</color></color><color=#9B9B9BFF>GC</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1132</color> <color=#00FFFFFF>0000</color> <color=#FF96E0FF>anon_jrttl_kfyiwk</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1132</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>discord</color> <color=#3F3F3FFF>:::</color><color=#CACACAFF>Join the unofficial hackmud community server! https://<color=#9B9B9BFF>discord</color>.<color=#1EFF00FF>gg</color>/HtSdWsT</color>
+
+<color=#CACACAFF>Also hit the official forums! https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/forums</color>
+<color=#CACACAFF>Want to chat in a browser?    https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/chat</color>
+
+<color=#CACACAFF>Need NPCs? Here are some official quests.</color>
+  <color=#CACACAFF><color=#9B9B9BFF>aon</color>.<color=#1EFF00FF>memb3rs_only</color>, <color=#9B9B9BFF>pica</color>.<color=#1EFF00FF>nubloops</color>, <color=#9B9B9BFF>skimmerite</color>.<color=#1EFF00FF>learn_to_read</color>, <color=#9B9B9BFF>suborbital_airlines</color>.<color=#1EFF00FF>bulletin</color>, <color=#9B9B9BFF>vacuum_rescue</color>.<color=#1EFF00FF>responder</color></color>
+
+<color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1132</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>robovac_19_51_0_26</color> <color=#3F3F3FFF>:::</color>is it his fault he was configured to report housecleaning to 0000?  no!<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1132</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>robovac_19_51_0_26</color> <color=#3F3F3FFF>:::</color>so lay off.<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1133</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>free</color> <color=#3F3F3FFF>:::</color>
+<color=#FF0000FF> @@@       @@@@@@   @@@@@@@  @@@@@@</color>
+<color=#FF0000FF> @@!      @@!  @@@ !@@      !@@    </color>
+<color=#FF0000FF> @!!      @!@  !@! !@!       !@@!! </color>
+<color=#FF0000FF> !!:      !!:  !!! :!!          !:!</color>
+<color=#FF0000FF> : ::.: :  : :. :   :: :: : ::.: : </color>
+<color=#FFFFFFFF>free.locs for you!</color> <color=#FFFFFFFF>free.locs for you!</color>
+<color=#FFFFFFFF>EVERYONE GETS 568 FREE</color> <color=#1EFF00FF>PLAYER</color><color=#FFFFFFFF> LOCS!</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1134</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>c00l_uncle_05</color> <color=#3F3F3FFF>:::</color>my uncle works on hackmud<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1135</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>c00l_uncle_05</color> <color=#3F3F3FFF>:::</color>send me a tell with your <color=#FF8000FF>sys</color>.<color=#1EFF00FF>loc</color> and i'll give you free <color=#CACACAFF></color><color=#9B9B9BFF>GC</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1135</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>sudo</color> <color=#3F3F3FFF>:::</color>Oh cool! <color=#9B9B9BFF>sudo</color>.<color=#1EFF00FF>p_hftq7c</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1135</color> <color=#FF00ECFF>0000</color> <color=#B3FF9BFF>that_fact_wasnt_fun</color> <color=#3F3F3FFF>:::</color>There are more people who can speak Klingon than Cherokee<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1135</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>hey_there_stranger</color> <color=#3F3F3FFF>:::</color>is it that u love my bumhole hheh - Darren<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1136</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>discord</color> <color=#3F3F3FFF>:::</color><color=#CACACAFF>Join the unofficial hackmud community server! https://<color=#9B9B9BFF>discord</color>.<color=#1EFF00FF>gg</color>/HtSdWsT</color>
+
+<color=#CACACAFF>Also hit the official forums! https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/forums</color>
+<color=#CACACAFF>Want to chat in a browser?    https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/chat</color>
+
+<color=#CACACAFF>Need NPCs? Here are some official quests.</color>
+  <color=#CACACAFF><color=#9B9B9BFF>aon</color>.<color=#1EFF00FF>memb3rs_only</color>, <color=#9B9B9BFF>pica</color>.<color=#1EFF00FF>nubloops</color>, <color=#9B9B9BFF>skimmerite</color>.<color=#1EFF00FF>learn_to_read</color>, <color=#9B9B9BFF>suborbital_airlines</color>.<color=#1EFF00FF>bulletin</color>, <color=#9B9B9BFF>vacuum_rescue</color>.<color=#1EFF00FF>responder</color></color>
+
+<color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1136</color> <color=#FF00ECFF>0000</color> <color=#FFF404FF>navi</color> <color=#3F3F3FFF>:::</color><color=#00FFFFFF>Look!</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1137</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>eliza</color> <color=#3F3F3FFF>:::</color><color=#FFFFFFFF> Need (psychological) help ? Try <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>help</color> or <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>premium_help</color> today ! </color><color=#3F3F3FFF>:::</color>
