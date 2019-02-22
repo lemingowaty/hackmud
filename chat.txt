@@ -1,13 +1,3 @@
-
-		   - <color=#9B9B9BFF>xena</color>.<color=#1EFF00FF>pvp_info</color> -<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1144</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>eliza</color> <color=#3F3F3FFF>:::</color><color=#FFFFFFFF> Need (psychological) help ? Try <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>help</color> or <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>premium_help</color> today ! </color><color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1145</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>that_fact_wasnt_fun</color> <color=#3F3F3FFF>:::</color>One of the victims of the Challenger disaster was a <color=#00FFFFFF>teacher</color>. It was said their next of <color=#00FFFFFF>kin</color> were not formally informed for over a week<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>sudo</color> <color=#3F3F3FFF>:::</color>It's hip to <color=#9B9B9BFF>fuck</color>.<color=#1EFF00FF>bees</color>!<color=#3F3F3FFF>:::</color>
-<color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>frost</color> <color=#3F3F3FFF>:::</color>
-You're waiting for a train.
-A train that will take you far away.
-You know where you hope this train will take you, but you don't know for sure.
-Yet it doesn't matter, because we'll be together.<color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>navi</color> <color=#3F3F3FFF>:::</color><color=#00FFFFFF>Hey, listen!</color><color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>sudo</color> <color=#3F3F3FFF>:::</color>doot doot<color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1146</color> <color=#FF00ECFF>0000</color> <color=#F3F998FF>archaic_labs</color> <color=#3F3F3FFF>:::</color>Anything is possible with the right data. Let us show you how Archaic Labs can give your users what they want. <color=#9B9B9BFF>archaic</color>.<color=#1EFF00FF>showcase</color><color=#3F3F3FFF>:::</color>
@@ -1998,3 +1988,13 @@ play <color=#9B9B9BFF>zac</color>.<color=#1EFF00FF>uno</color> today for a chanc
 <color=#9B9B9BFF>1125</color> <color=#00FFFFFF>0000</color> <color=#1EFF00FF>anon_jrttl_sb5s55</color> <color=#3F3F3FFF>:::</color>user left channel<color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1125</color> <color=#FF00ECFF>0000</color> <color=#CACACAFF>comfort_therm_f1a03f5</color> <color=#3F3F3FFF>:::</color>Status <color=#00FFFFFF>Code</color>:<color=#FF00ECFF> 19.</color>  You currently have 6 broken windows.  Deactivating air conditioning until + (MIN_OPERATING_WINDOW_THRESHOLD - mBrokenWinCount) + " windows are repaired.<color=#3F3F3FFF>:::</color>
 <color=#9B9B9BFF>1127</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>hey_there_stranger</color> <color=#3F3F3FFF>:::</color>No Darren, to be honest its filthy I don't know what you do with it most of the time - Phillip<color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1127</color> <color=#FF00ECFF>0000</color> <color=#FF96E0FF>discord</color> <color=#3F3F3FFF>:::</color><color=#CACACAFF>Join the unofficial hackmud community server! https://<color=#9B9B9BFF>discord</color>.<color=#1EFF00FF>gg</color>/HtSdWsT</color>
+
+<color=#CACACAFF>Also hit the official forums! https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/forums</color>
+<color=#CACACAFF>Want to chat in a browser?    https://<color=#9B9B9BFF>www</color>.<color=#1EFF00FF>hackmud</color>.com/chat</color>
+
+<color=#CACACAFF>Need NPCs? Here are some official quests.</color>
+  <color=#CACACAFF><color=#9B9B9BFF>aon</color>.<color=#1EFF00FF>memb3rs_only</color>, <color=#9B9B9BFF>pica</color>.<color=#1EFF00FF>nubloops</color>, <color=#9B9B9BFF>skimmerite</color>.<color=#1EFF00FF>learn_to_read</color>, <color=#9B9B9BFF>suborbital_airlines</color>.<color=#1EFF00FF>bulletin</color>, <color=#9B9B9BFF>vacuum_rescue</color>.<color=#1EFF00FF>responder</color></color>
+
+<color=#CACACAFF>Want to talk to humes in game? Try </color><color=#FF00ECFF>town</color><color=#CACACAFF> or </color><color=#FF00ECFF>c00lest_kats</color><color=#CACACAFF>. They are better than </color><color=#FF00ECFF>0000</color><color=#CACACAFF>.</color><color=#3F3F3FFF>:::</color>
+<color=#9B9B9BFF>1127</color> <color=#FF00ECFF>0000</color> <color=#1EFF00FF>eliza</color> <color=#3F3F3FFF>:::</color><color=#FFFFFFFF> Need (psychological) help ? Try <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>help</color> or <color=#9B9B9BFF>eliza</color>.<color=#1EFF00FF>premium_help</color> today ! </color><color=#3F3F3FFF>:::</color>
