@@ -1,25 +1,50 @@
 function( C, A ) {
-  var B = #fs.scripts.lib()
-  , { t, project, pwd, q } = A || {}
-  , Q = {}
-  , nav1 = t.call().split( "\n" ).reverse()[ 0 ].split( " | " )
-  , nav2 = t.call( Q ).split( "\n" ).reverse()[ 0 ].split( /\s|:|"/gm )
-  , corrupted = [ 0 , 161 , 162 , 164 , 166 , 167 , 168 , 169 , 170 , 193 , 195 ].map(
-      (e,i)=>(
-        "`"+i+String.fromCharCode(e)+"`"
-      )
-    )
-  // , ChMap = [ ...Array(256).keys() ].map(
-  //     ( e ,i )=>( i + "=" + String.fromCharCode(e) )
-  //   ).join("\n")
-  // for (let i = 0; i<256; i++) ChMap[i] = i + " : " + String.fromCharCode(i) + " | "
+  var B = #fs.scripts.lib(),
+    { T, project, pwd, q } = A || {},
+    calls = [],
+    nav = [
+      T.call().split( "\n" ).reverse()[ 0 ]
+      .split( " | " )
+      ,
+      T.call( {} ).split( "\n" ).reverse()[ 0 ]
+      .split( /\s|:|"/ )
+    ],
+    Stfy = O => JSON.stringify( O ),
+    CL = ( qry = null ) => {
+      let a = T.call( qry )
+      calls.push( {
+        [ Stfy( qry ) ]: a
+      } )
+      return a
+    }
+  // , crpt = [ 0 , 161 , 162 , 164 , 166 , 167 , 168 , 169 , 170 , 193 , 195 ].map(
+  //     e=>( String.fromCharCode(e) )
+  //   )
 
-  let R = {
-    nav1 , nav2
-    , [ JSON.stringify( q ) ]: t.call( q )
-  }
-  return [ R , corrupted ]
-  // return { R
-  //   , cr:corrupted.join("") , ChMap:ChMap.join("")
-  // }
+  nav[ 0 ].pop()
+  nav = [
+    nav[ 1 ][ 4 ],
+    ...nav[ 0 ],
+    nav[ 1 ][ 6 ]
+  ]
+
+  CL( {
+    [ nav[ 0 ] ]: nav[ 2 ]
+  } )
+  CL( {
+    [ nav[ 0 ] ]: nav[ 1 ]
+  } )
+  CL( {
+    [ nav[ 0 ] ]: nav[ 3 ],
+    p: pwd,
+    pass: pwd,
+    password: pwd,
+    project
+  } )
+
+  return [
+    ...calls,
+    nav ,
+    (Date.now()-_ST+"ms")
+  ]
 }
