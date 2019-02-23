@@ -1,6 +1,7 @@
-function( C, A ) {
+function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" } 
   var B = #fs.scripts.lib(),
     { T, project, pwd, q } = A || {},
+    calls = [],
     CL = ( qry = null ) => {
       let a = T.call( qry )
       calls.push( {
@@ -9,7 +10,6 @@ function( C, A ) {
       return a
     },
     Stfy = O => JSON.stringify( O ),
-    calls = [],
     nav = [
       CL( ).split( "\n" ).reverse()[ 0 ]
       .split( " | " )
