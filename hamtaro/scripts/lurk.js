@@ -1,22 +1,22 @@
 function( C, A ) {
   var B = #fs.scripts.lib(),
     { T, project, pwd, q } = A || {},
-    calls = [],
-    nav = [
-      T.call().split( "\n" ).reverse()[ 0 ]
-      .split( " | " )
-      ,
-      T.call( {} ).split( "\n" ).reverse()[ 0 ]
-      .split( /\s|:|"/ )
-    ],
-    Stfy = O => JSON.stringify( O ),
     CL = ( qry = null ) => {
       let a = T.call( qry )
       calls.push( {
         [ Stfy( qry ) ]: a
       } )
       return a
-    }
+    },
+    Stfy = O => JSON.stringify( O ),
+    calls = [],
+    nav = [
+      CL( ).split( "\n" ).reverse()[ 0 ]
+      .split( " | " )
+      ,
+      CL( {} ).split( "\n" ).reverse()[ 0 ]
+      .split( /\s|:|"/ )
+    ]
   // , crpt = [ 0 , 161 , 162 , 164 , 166 , 167 , 168 , 169 , 170 , 193 , 195 ].map(
   //     e=>( String.fromCharCode(e) )
   //   )
