@@ -26,7 +26,7 @@ function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" }
     ...nav[ 0 ]  , // NewsList , PasswordPage
     nav[ 1 ][ 6 ] // ProjectDir
   ]
-  let  pick = nav[0]//,
+  let pick = nav[ 0 ] //,
   //   news = nav[1],
   //   abot = nav[2],
   //   drct = nav[3]
