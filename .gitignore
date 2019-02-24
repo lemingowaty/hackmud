@@ -5,7 +5,7 @@ hmbackup/
 
 *.key
 
-chat.txt
+!chat.txt
 
 *.txt
 
