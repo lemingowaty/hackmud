@@ -1,6 +1,6 @@
 function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" }
-  var B = #fs.scripts.lib(),
-    { T, project, pwd, q } = A || {},
+  var { T, project, pwd, q } = A || {},
+    // B = #fs.scripts.lib(),
     Stfy = O => JSON.stringify( O ),
     CL = ( qry = null ) => {
       let a = T.call( qry )
