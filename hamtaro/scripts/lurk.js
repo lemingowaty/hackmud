@@ -1,4 +1,4 @@
-function( C, A ) {
+function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" }
   var B = #fs.scripts.lib(),
     { T, project, pwd, q } = A || {},
     Stfy = O => JSON.stringify( O ),
