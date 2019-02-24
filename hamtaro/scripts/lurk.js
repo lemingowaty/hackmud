@@ -10,8 +10,8 @@ function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" }
       return a
     },
     CLog = [],
-    crpt = [ 0 , 161 , 162 , 164 , 166 , 167 , 168 , 169 , 170 , 193 , 195 ].map(
-      e=>( String.fromCharCode(e) )
+    crpt = [ 0, 161, 162, 164, 166, 167, 168, 169, 170, 193, 195 ].map(
+      e => ( String.fromCharCode( e ) )
     ),
     nav = [
       CL().split( "\n" ).reverse()[ 0 ]
@@ -22,19 +22,23 @@ function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" }
 
   nav[ 0 ].pop()
   nav = [
-    nav[ 1 ][ 4 ],// Choice
-    ...nav[ 0 ],  // NewsList , PasswordPage
+    nav[ 1 ][ 4 ], // Choice
+    ...nav[ 0 ]  , // NewsList , PasswordPage
     nav[ 1 ][ 6 ] // ProjectDir
   ]
+  let  pick = nav[0]//,
+  //   news = nav[1],
+  //   abot = nav[2],
+  //   drct = nav[3]
 
   CL( {
-    [ nav[ 0 ] ]: nav[ 2 ]
+    [ pick ]: nav[ 2 ]
   } )
   CL( {
-    [ nav[ 0 ] ]: nav[ 1 ]
+    [ pick ]: nav[ 1 ]
   } )
   CL( {
-    [ nav[ 0 ] ]: nav[ 3 ],
+    [ pick ]: nav[ 3 ],
     p: pwd,
     pass: pwd,
     password: pwd,
