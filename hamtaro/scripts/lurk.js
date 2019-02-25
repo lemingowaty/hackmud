@@ -14,17 +14,15 @@ function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" }
       e => ( String.fromCharCode( e ) )
     ),
     nav = [
-      CL().split( "\n" ).reverse()[ 0 ]
-      .split( " | " ),
+      CL().split( "\n" ).reverse()[ 0 ].split( " | " ),
       CL( {} ).split( "\n" ).reverse()[ 0 ]
-      .split( /\s|:|"/ )
     ]
-
   nav[ 0 ].pop()
+  return nav[1]
   nav = [
-    nav[ 1 ][ 4 ], // Choice
+    nav[ 1 ][ 0 ], // Choice
     ...nav[ 0 ]  , // NewsList , PasswordPage
-    nav[ 1 ][ 6 ] // ProjectDir
+    nav[ 1 ][ 1 ] // ProjectDir
   ]
   let pick = nav[ 0 ] //,
   //   news = nav[1],
@@ -45,7 +43,7 @@ function( C, A ) { // { T:#s.cmp.public , project:"name" , pwd:"password" }
     project
   } )
 
-  return [ ...calls, nav,
+  return [ ...CLog, nav,
     ( Date.now() - _ST + "ms" )
   ]
 }
