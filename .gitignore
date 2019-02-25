@@ -1,6 +1,8 @@
 hmbackup/
 -hackmud/
 *.key
+!chat.txt
+*.txt
 *\.down.js
 *.down.js
 *down.js
