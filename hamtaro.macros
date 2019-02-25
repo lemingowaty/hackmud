@@ -6,3 +6,9 @@ kh
 kernel.hardline{ confirm: true }
 dc
 kernel.hardline{ dc:true }
+minfo
+market.browse {{ i:"{0}" }}
+gl
+scripts.get_level {{ name:"{0}" }}
+last
+users.last_action{{ name:"{0}" }}
