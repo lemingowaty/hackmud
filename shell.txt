@@ -1,533 +1,3 @@
-  <color=#00FFFFFF>null</color>:<color=#FF00ECFF> "  _    _          _      _____  ______ _______     ______  _   _ \n | |  | |   /\\   | |    | <color=#FF8000FF>¤</color>__ \\|  ____|  __ \\ \\   / / __ \\| \\ | |\n<color=#A34F00FF>¢</color>| |__| |  /  \\  |<color=#FFFFFFFF>¦</color>|    | |__) | |__  | |__) \\ \\_/ / |  | |  \\| |\n |  __  | / /\\ <color=#939500FF>¡</color> | |    |  ___/|  __| |  _  / \\   /| <color=#385A6CFF>§</color>  | | . ` |\n | |  | |/ ____ \\| |____| |    | |____| | \\ \\  | | | |__| | |\\  |\n |_|  |_/_/    \\_\\______<color=#676767FF>ª</color>_|    |______|_|  \\_\\ |_|  \\____/|_| <color=#A34F00FF>ª</color>_|\n                                                                 \n                                                                 \nWelcome to HALPERYON SYSTEMS public information script. Please refrain from en<color=#F3AA6FFF>¡</color>aging in criminal activity.\nupdates | about_us | "</color>
-}
-{
-  <color=#00FFFFFF>"{}"</color>:<color=#FF00ECFF> "Please specify a command with nav:"</color><color=#507AA1FF>Á</color>command nameÉ"\nPublic commands are "about_us" "updates" \n-- access directory with <color=#00FFFFFF>nav</color>:<color=#FF00ECFF>"dir"</color>"
-}
-{
-  "{<color=#00FFFFFF>"nav"</color>:<color=#FF00ECFF>"about_us"</color>}": "HALPERYON <color=#3F3F3FFF>¨</color>YSTEMS:  People.  Children.  Industrial Solvent Storage and Distribution.  Balance.\nWe are calling this strategy knowyourteam an<color=#725437FF>ª</color> we will continue to strive to deliver on this promise."
-}
-{
-  "{<color=#00FFFFFF>"nav"</color>:<color=#FF00ECFF>"dir"</color>,<color=#00FFFFFF>"p"</color>:<color=#FF00ECFF>"knowyourteam"</color>,<color=#00FFFFFF>"pass"</color>:<color=#FF00ECFF>"knowyourteam"</color>,<color=#00FFFFFF>"password"</color>:<color=#FF00ECFF>"knowyourteam"</color>,<color=#00FFFFFF>"project"</color>:<color=#FF00ECFF>"Free_BFG"</color>}": [
-    "<color=#9B9B9BFF>abandoned_jrttl_chhlao</color>.<color=#1EFF00FF>pub_info_c86</color><color=#1EFF00FF>¢</color>oo",
-    "abndnd_jrttl_xrd0qf<color=#E6C4FFFF>ª</color>pubinfo_joh450",
-    "<color=#9B9B9BFF>abndnd_ddttl_quao9v</color>.<color=#1EFF00FF>public_mo0rhd</color>",
-    "<color=#9B9B9BFF>abndnd_jrttl_qf9j4y</color>.<color=#1EFF00FF>pub_info_uj52av</color>",
-    "uknown_jrwlf_h<color=#B035EEFF>ª</color>2n23.external_q8w2xy",
-    "<color=#9B9B9BFF>derelict_jrttl_b4gut1</color>.<color=#1EFF00FF>p</color><color=#B035EEFF>Á</color>b_info_qxtmkv",
-    "<color=#9B9B9BFF>abandoned_jrttl_dxy4pt</color>.<color=#1EFF00FF>out_nim3qd</color>",
-    "<color=#9B9B9BFF>unknown_jrttl_vp0gq6</color>.<color=#1EFF00FF>out_f5zxtg</color>",
-    "<color=#9B9B9BFF>unknown_ddttl_6wik15</color>.<color=#1EFF00FF>entry_72d0</color><color=#000000FF>¤</color>k",
-    "<color=#9B9B9BFF>anonymous_jr_l1pyyi</color>.<color=#1EFF00FF>info_zoyj6u</color>",
-    "<color=#9B9B9BFF>derelict_jrttl_fknpez</color>.<color=#1EFF00FF>pub_8vta7h</color>",
-    "uknown_jr_xn83w6.<color=#0C112BFF>©</color>ub_7xr0om",
-    "a<color=#B3FF9BFF>ª</color><color=#9B9B9BFF>on_jrttl_lganov</color>.<color=#1EFF00FF>entry_kz3nw3</color>",
-    "abandoned_jrttl_1f<color=#8E3434FF>§</color><color=#9B9B9BFF>yeq</color>.<color=#1EFF00FF>pubinfo_zqqkn4</color>",
-    "unknown_jrttl_<color=#880024FF>¨</color><color=#9B9B9BFF>t8gnq</color>.<color=#1EFF00FF>p_1gejrr</color>",
-    "<color=#9B9B9BFF>anonymous_ddttl_j5xv62</color>.<color=#1EFF00FF>pub_4m70x1</color>",
-    "<color=#9B9B9BFF>abandoned_jrttl_stbzip</color>.<color=#1EFF00FF>p_zqw0vz</color>",
-    "<color=#9B9B9BFF>derelict_jrttl_tgnpzm</color>.<color=#1EFF00FF>access_56vd52</color>"
-  ]
-}
-nav
-updates
-about_us
-dir
-380ms
-
-<color=#9B9B9BFF>-autocompletes added-</color>
-
-<color=#FFFFFFFF>>><color=#9B9B9BFF>#up</color> lurk</color>
-{<color=#00FFFFFF>success</color>:<color=#FF00ECFF>true</color>,<color=#00FFFFFF>security_level</color>:<color=#FF00ECFF>4</color>,<color=#00FFFFFF>length</color>:<color=#FF00ECFF>"573/2521"</color>,<color=#00FFFFFF>is_public</color>:<color=#FF00ECFF>false</color>}
-<color=#FFFFFFFF>>><color=#9B9B9BFF>hamtaro</color>.<color=#1EFF00FF>lurk</color> { <color=#00FFFFFF>T</color>:<color=#FF00ECFF>#s.<color=#9B9B9BFF>halperyon</color>.<color=#1EFF00FF>public</color></color> , <color=#00FFFFFF>pwd </color>:<color=#FF00ECFF> "knowyourteam"</color> , <color=#00FFFFFF>project</color>:<color=#FF00ECFF>"Free_BFG"</color>}</color>
-<color=#FF0000FF>:::TRUST COMMUNICATION:::</color> ReferenceError: Stfy is not defined
-
-<color=#FFFFFFFF>>><color=#9B9B9BFF>#up</color> lurk</color>
-{<color=#00FFFFFF>success</color>:<color=#FF00ECFF>true</color>,<color=#00FFFFFF>security_level</color>:<color=#FF00ECFF>4</color>,<color=#00FFFFFF>length</color>:<color=#FF00ECFF>"574/2521"</color>,<color=#00FFFFFF>is_public</color>:<color=#FF00ECFF>false</color>}
-<color=#FFFFFFFF>>><color=#9B9B9BFF>hamtaro</color>.<color=#1EFF00FF>lurk</color> { <color=#00FFFFFF>T</color>:<color=#FF00ECFF>#s.<color=#9B9B9BFF>halperyon</color>.<color=#1EFF00FF>public</color></color> , <color=#00FFFFFF>pwd </color>:<color=#FF00ECFF> "knowyourteam"</color> , <color=#00FFFFFF>project</color>:<color=#FF00ECFF>"Free_BFG"</color>}</color>
-{
-  <color=#00FFFFFF>null</color>:<color=#FF00ECFF> "  _ <color=#0070DDFF>¨</color>  _          _      _____  ______ _______    <color=#FF96E0FF>ª</color>______  _   _ \n | |  | |   /\\   | |    |  __ \\|  ____|  __ \\ \\   / / __ \\| \\ | |\n | |__| |  /  \\  | |    | |__) | |__  | |__) \\ \\_/ / <color=#00FFFFFF>¤</color>  | |  \\| |\n |  __  | / /\\ \\ | |  <color=#299400FF>¢</color> |  ___/<color=#FF0070FF>¢</color>  __| |  _  / \\   /| |  | | . ` |\n | |  | |/ ____ \\| |____| |    | |____| | \\ \\  | | | |__| | |\\  |\n |_|  |_/_/    \\_\\______|_|    |______|_|  \\_\\ |_|  \\____/|_| \\_|\n         <color=#0070DDFF>ª</color>     <color=#23381BFF>¦</color>                                                 \n                                                                 \nWelcome t<color=#FFFFFFFF>ª</color> HALPERYON SYSTEMS public information script. Please refrain from engaging in criminal activity.\nupdates | about_us | "</color>
-}
-{
-  <color=#00FFFFFF>"{}"</color>:<color=#FF00ECFF> "Please spec<color=#FFD863FF>¦</color>fy a command with <color=#00FFFFFF>nav</color>:<color=#CACACAFF>"</color>Ècommand nameÉ"</color>\nPublic commands are "about_us" "updates" \n-- access directory with <color=#00FFFFFF>nav</color>:<color=#FF00ECFF>"dir"</color>"
-}
-{
-  "{<color=#00FFFFFF>"nav"</color>:<color=#FF00ECFF>"updates"</color>}": [
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>219</color>\nXT-5 Gardening Bot for sale cheap.  Works fine, not eligible for<color=#A88600FF>¤</color>rOS 13 update. Contact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "20<color=#B2934AFF>Á</color><color=#FFFFFFFF>1</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>198</color>\nFor our friends in the Corrupted community: Happy Pittsday! May the Lost Sectors Be Restored, May the Filetable Be Made Whole.",
-    "2<color=#FF6A98FF>Ã</color><color=#FFFFFFFF>61</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>170</color>\n'We've got the bad guys on the run!' -- runningman23 when being asked about new developments on W3rlD3NDER progress.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>161</color>\n'We've got the bad guys on the run!' -- wonderous_steve when being asked about new developments on LUNARLANDER_01.1<color=#FF6A98FF>¤</color>.bat progress.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>160</color>\nInternal adoption contin<color=#FFD863FF>¢</color>es to rise for the new public_profiles initiative.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>152</color>\nL-1 Espressonaut for sale.  rOS 13 compatible.  Frother kind of weak, otherwise fine.  Lynne @ IT.  FOR MORE STUFF FOR SALE, SUBSCR<color=#939500FF>Á</color>BE SYSDEALS.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>147</color>\nsyslog scrubber for sale. <color=#A4E3FFFF>¦</color>works, cheap.  not much else to say.  Jimmy @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>143</color>\nZX10 Quadraphonic Sound System for sale.  still on rOS 4.  gets the room moving like no other.  Sherlise @ DEVO<color=#FF96E0FF>Ã</color>S.  FOR MORE STUF<color=#880024FF>§</color> FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>132</color>\nXT-5 <color=#0C112BFF>¡</color>ardening Bot for sale cheap.  Works fine, not eligible for rOS 13 update. Contact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>119</color>\nFollowing critical revie<color=#299400FF>§</color> of z14g5z1, the project has been cancelled.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>104</color>\n4tfto5 announce<color=#973984FF>¨</color> beta testing period starting today.",
-    "2061AD <color=#CACACAFF>§</color>88\nProfits are up 17% in the Benelux region for Q4",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>78</color>\nL-1 Espressonaut for sale.  rOS 13 compatible.  Frother kind of weak, otherwise fine.  Lynne @ <color=#FF0070FF>¨</color>T.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>60</color>\nEmployees utilizing <color=#3F3F3FFF>¡</color>ork resources poorly will be happy to know that the new entertainment and conference room reservation tool has<color=#101215FF>¢</color>been completed.  Look for qw_stop in your mailbox.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>52</color>\nEmployees ut<color=#00FFFFFF>©</color>lizing w<color=#010067FF>¦</color>rk resources poorly will be happy to know that the new entertainment and conference room reservation tool has been completed.  Look for e5osvb0bc in your mailbox.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>43</color>\nRegister for the holiday party.  This year's celebration will be cater<color=#A88600FF>Á</color>d by Setec Gastronomy.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>30</color>\nTake your clone to work day is coming up on January 10th! <color=#8C0069FF>¢</color>Remember all clones must be registered with security 24 hours before visiting.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>12</color>\nFeral<color=#B2934AFF>§</color>bun<color=#0070DDFF>¤</color>ybat attacks have been reported in the west garages after nightfall.  Employees are encouraged to stick to lighted areas and carry their employer-supplied mace.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>11</color>\nWork continues on Vy_for_russ, hope is held out t<color=#0C112BFF>§</color>at it might be connected to a cure for Welsh Measles.",
-    "<color=#FFFFFFFF>2061</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>10</color>\nsyslog scrubber for sale.  works<color=#601C81FF>©</color> cheap.  not much else to say.  Jimmy @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>352</color>\nProfits are up 17% i<color=#8FE6FFFF>¨</color> the Benelux region for Q4",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>350</color>\nXT-5 Gardening Bot for sale cheap.  Works fine, not eligible for rOS 13 update. Co<color=#010067FF>¨</color>tact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>342</color>\nEmployees utilizing work r<color=#939500FF>¤</color>sources poorly will be happy to know that the new entertainment and conference room rese<color=#385A6CFF>¦</color>vation tool has been completed.  Look for <color=#9B9B9BFF>cloudskimmer</color>.<color=#1EFF00FF>da7a</color> in your mailbox.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>332</color>\nFollowing critical review of h6btjb, the project has been can<color=#299400FF>¨</color>elled.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>288</color>\nL-1 Espressonaut for sale.  rOS 1<color=#9B9B9BFF>¡</color> compatible.  Frother kind of weak, otherwise fine.  Lynne @ IT.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>286</color>\nProfits are down 3% in the United Polynesia region for Q4",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>278</color>\nFans continue to fund fake backstarters for giant_spidr sinc<color=#0000FFFF>Ã</color> it was discontinued.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>266</color>\nGot a cheap rate on a weekend trip to a Sea of Tranq resort Dec 13, includes shuttle.  Date cancelled; anybody want to come<color=#FF8383FF>¨</color>  Separate beds!  Paolo @ Marketing.  FOR MORE EMPLOYEE EVENTS,<color=#7D0000FF>Á</color>SUBSCRIBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>263</color>\nREMINDER: All bu<color=#324A4CFF>©</color>ldings will be evacuated and systems unresponsive on Dec 31 23:00 GMT for the rOS 13.0 rollo<color=#FF0000FF>¤</color>er.  Do not plan on open connections for at least twenty minutes after the update window.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>263</color>\nAnyone sh<color=#A88600FF>¦</color>wing signs of Welsh Measles wll be escorted from the building IMMEDIATLY!  Do not attempt to work through your symptoms. Your coworkers safety is your r<color=#324A4CFF>§</color>sponsiblty.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>261</color>\nGot a cheap rate on a weekend trip to a Sea of Tranq resort Dec 13, includes shuttle.  Date cancelled; anybody want to come?  Separate beds<color=#FF0070FF>¢</color>  Paolo @ Mar<color=#43314CFF>Ã</color>eting.  FOR MORE EMPLOYEE EVENTS, SUBSCRIBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>255</color>\nProfits are d<color=#FFD863FF>Á</color>wn 3% in the United Polynesia region for Q4",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>252</color>\nFans continue to fund fake back<color=#FF00ECFF>¤</color>tarters for 101010 since it was discontinued.",
-    "20<color=#010067FF>Á</color><color=#FFFFFFFF>0</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>232</color>\nTake your clone to work day is coming up on January 10th!  Remember all clones must be registered with security 24 hours before visiting.",
-    "2<color=#0073A6FF>¦</color><color=#FFFFFFFF>60</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>227</color>\nFeral bunnybat attacks have been <color=#F3AA6FFF>ª</color>eported in the west garages after nightfall.  Employees are encouraged to stick to lighted areas and carry their employer-supplied mace.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>188</color>\nFans continue to<color=#939500FF>§</color>fund fake backstarters for <color=#9B9B9BFF>ragnaroxx</color>.<color=#1EFF00FF>sh</color> since it was discontinued.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>18</color><color=#324A4CFF>Á</color>\nProfits are down 3% in the United Polynesia region for Q4",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>170</color>\nWere you seeing delayed response times? Update<color=#939500FF>¨</color>was just pushed to querybot",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>161</color>\nXT-5 Gardening Bot for sale cheap<color=#973984FF>§</color>  Works fine, not eligible for rOS 13 update. Contact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>131</color>\nNew employees monito<color=#385A6CFF>Á</color>ing new employees should report all activities with __av93zk9b9",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>126</color>\nProfits are up 17% in th<color=#0C112BFF>©</color> Benelux region for Q4",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>95</color>\nFeral bunnybat attacks hav<color=#385A6CFF>Á</color> been reported in the west garages after nightfall.  Employees are encouraged to stick to lighted areas and carry their employer-su<color=#0070DDFF>Ã</color>plied mace.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>37</color>\nT<color=#FF6A98FF>§</color>e coffee machine on the first floor is broken again",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>34</color>\nFeral bunnybat attacks have been reported in the west garages after nightfall.  Employees are encouraged to st<color=#0C112BFF>¡</color>ck to lighted areas and carry the<color=#A88600FF>¢</color>r employer-supplied mace.",
-    "<color=#FFFFFFFF>2060</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>1</color>\ndsktp_mngr announces beta testing period startin<color=#FF8000FF>©</color> today.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>358</color>\nTake y<color=#507AA1FF>¢</color>ur clone to work day is coming up on January 10th!  Remember all clones must be registered with security 24 hours before visiting.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>319</color>\nFeral bunnyba<color=#601C81FF>¦</color> attacks have been reported in the west garages after nightfall.  Employees are encoura<color=#FF00ECFF>¨</color>ed to stick to lighted areas and carry their employer-supplied mace.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>306</color>\n'We've got the bad guys on the run!' -- revolution808 when being asked about new development<color=#B3FF9BFF>ª</color> on 7r701jn0mr progress.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>303</color>\nRegister for the holiday party.  This year's celebration wil<color=#23381BFF>§</color> be catered by Setec Gastronomy.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>283</color>\nRegister for the holiday party.  This year's celebr<color=#B2934AFF>¢</color>tion will be catered by Setec Gastronomy.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>248</color>\nXT-5 Gardening Bot for sale cheap.  Wor<color=#0000FFFF>¡</color>s fine, not eligible for rOS 13 update. Contact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>157</color>\nREMINDER: Loud noises can someti<color=#601C81FF>¨</color>es be heard in the loading docks.  This is just routine maintenance.  Do not be alarmed.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>113</color>\nProfits are up 17% in the Benelux region for Q4",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>107</color>\nProfits are up 17% in the Benelux region<color=#0C112BFF>¨</color>for Q4",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>102</color>\nFollowing critical rev<color=#507AA1FF>Ã</color>ew of 2b94xj7no2, the project has been cancelled.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>98</color>\nEmployees utilizing wor<color=#9B9B9BFF>Ã</color> resources poorly will be happy to know that t<color=#507AA1FF>¢</color>e new entertainment and conference room reservation tool has been completed.  Look for Ap_calypse in your mailbox.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>66</color>\nThe coffee machine in my car is broken again",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>61</color>\nProfits are up 17% in the Benelux region for <color=#101215FF>©</color>4",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>57</color>\nWork continues on p5zmx4s8j, hope is held out that it might be connected to a <color=#8E3434FF>¨</color>ure for Welsh Measles.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>36</color>\nRegister for the holiday party.  This year's celeb<color=#FFFFFFFF>¢</color>ation will be catered by Setec Gastronomy.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>25</color>\nXT-5 Gardening Bot for sale cheap.  Wo<color=#F3AA6FFF>¨</color>ks fine, not eligible for rOS 13 update. Contact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>23</color>\nNew employees must report all breaks, including but not li<color=#385A6CFF>¢</color>ited to biological breaks.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>18</color>\n'We've got the bad guys on the<color=#880024FF>¨</color>run!' -- mjay_m_walker when being asked about new developments on BL4Z1NGW0RLD progress.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>12</color>\nL-1 Espressonaut for sale.  rOS 13 compatible.  Frother kind of weak, otherwise fine.  Lynne @ I<color=#B3FF9BFF>Ã</color>.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>11</color>\nXT-5 Gar<color=#385A6CFF>Á</color>ening Bot for sale cheap.  Works fine, not eligible for rOS 13 update. Contact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2059</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>6</color>\nL-1 Espressonaut for sale.  rOS 13 compatible.  Frother kind of weak, otherwise fine.  Lynne @ IT.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEAL<color=#43314CFF>©</color>.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>362</color>\nNew employees must report all breaks, including <color=#0C112BFF>Ã</color>ut not limited to biological breaks.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>348</color>\nTake your clone to work day is coming up on January 10th!  Remember all clon<color=#7D0000FF>¨</color>s must be registered with security 24 hours before visiting.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>315</color>\nNew employees must report all breaks, including but<color=#0073A6FF>¤</color>not limited to biological breaks.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>308</color>\nREMINDER: All buil<color=#FFFFFFFF>Á</color>ings will be evacuated and systems unresponsive on Dec 31 23:00 GMT for the rOS 13.0 rollover.  Do not plan on open connections for at l<color=#939500FF>¤</color>ast twenty minutes after the update window.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>298</color>\nRegister for the<color=#F3AA6FFF>¢</color>holiday party.  This year's celebration will be catered by Setec Gastronomy.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>261</color>\nZX10 Quadraphonic<color=#8E3434FF>§</color>Sound System for sale.  still on rOS 4.  gets <color=#880024FF>©</color>he room moving like no other.  Sherlise @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>257</color>\nFans continue to fund fake backstarters for forgetme_nt since it was d<color=#FFF404FF>¢</color>scontinued.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>243</color>\nProfits are down 3% in the United Polynesia region fo<color=#B035EEFF>¢</color> Q4",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>241</color>\nREMINDER: All buildings will be evacuated and systems unresponsive on Dec <color=#3F3F3FFF>¡</color>1 23:00 GMT for the rOS<color=#F3F998FF>¦</color>13.0 rollover.  Do not plan on open connections for at least twenty minutes after the update window.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>227</color>\nREMINDER: All bunnybats must be checked in at the front desk.  Vio<color=#A88600FF>Á</color>ators will be detained.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>219</color>\nXT-5 Gardening Bot f<color=#8FE6FFFF>¡</color>r sale cheap.  Works fine, not eligible for rOS 13 update. Contact Mitch @ HR.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>182</color>\nProfits are up 17% in th<color=#FFFFFFFF>Á</color> Benelux region for Q4",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>143</color>\nREMINDER: Loud noises can sometimes be heard in the lo<color=#010067FF>¨</color>ding docks.  This is just routine maintenance.  Do not be alarmed.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>132</color>\nGot a cheap rate on a weekend trip t<color=#FF6A98FF>Á</color> a Sea of Tranq resort Dec 13, includes shuttle.  Date cancelled; anybody wan<color=#8FE6FFFF>§</color> to come?  Separate beds!  Paolo @ Marketing.  FOR MORE EMPLOYEE EVENTS, SUBSCRIBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>130</color>\n'We've got the bad guys on the run!' -- computer_blue when being asked about new developments on F<color=#FF8000FF>©</color>ee_BFG progress.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>97</color>\nTake your clone to work day is coming up on January 10th!  Remember all clones must be registered with<color=#FFD863FF>Á</color>security 24 hours before visiting.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>81</color>\nTake your clone to work d<color=#3F3F3FFF>ª</color>y is coming up on January 10th!  Remember all clones must be registered with security 24 hours before visiting.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>79</color>\nProfits are up 17% in the Bene<color=#601C81FF>¨</color>ux region for Q4",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>68</color>\nWork c<color=#F3AA6FFF>¦</color>ntinues on <color=#9B9B9BFF>semordnilap</color>.<color=#1EFF00FF>sh</color>, hope is held out that it might be connected to a cure for Welsh Measles.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>66</color>\nREMINDER: Loud noises can sometimes be heard in the loading docks.  This is just routine maintenance.  Do not be alarm<color=#7D0000FF>©</color>d.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>62</color>\n'We've got the bad guys on the run!' -- jun<color=#8E3434FF>Ã</color>_macguff when being asked about new developments on tmp progress.",
-    "<color=#FFFFFFFF>2058</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>16</color>\nREMINDER: All bunnybat<color=#0073A6FF>¨</color> must be checked in at the front desk.  Violators will be detained.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>359</color>\nZX10 Quadraphonic Sound System for sale.  still on rOS 4<color=#507AA1FF>¡</color>  gets the room movi<color=#324A4CFF>Ã</color>g like no other.  Sherlise @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>338</color>\<color=#9B9B9BFF>nende</color>.<color=#1EFF00FF>exe</color> announces beta testing period starting today.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>323</color>\nGot a cheap rate on a weekend trip to a Sea of Tranq resort Dec 13, i<color=#9B9B9BFF>¦</color>cludes shuttle.  Date cancelled; anybody want to come?  Separate beds!  Paolo @ Marketing.  FOR MORE EMPLOYEE EVENTS, <color=#E6C4FFFF>§</color>UBSCRIBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>313</color>\nZX10 Quadraph<color=#B035EEFF>¤</color>nic Sound System f<color=#B2934AFF>¨</color>r sale.  still on rOS 4.  gets the room moving like no other.  Sherlise @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>313</color>\nProfits are up 17% in the Benelux region for Q4",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>299</color>\nGot a cheap rate on a weekend trip to a Se<color=#B3FF9BFF>©</color> of Tranq resort Dec 13, includes shuttle.  D<color=#B2934AFF>¡</color>te cancelled; anybody want to come?  Separate beds!  Paolo @ Marketing.  FOR MORE EMPLOYEE EVENTS, SUBSCRIBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>290</color>\nREMINDER: Loud noises can sometimes be heard in the loading docks.  This <color=#7AB2F4FF>¦</color>s just routine maintenance.  Do not be alarmed.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>284</color>\nProfits are down 3% in the United Polynesia region for Q4",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>254</color>\nESCHATOLOGI.EXE <color=#B035EEFF>¨</color>nnounces beta testing period starting today.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>252</color>\nrocky_b of project judgeme_nt has come clean about the cancellation of his product.  'We just can't jus<color=#7D0000FF>§</color>ify the cost.' he said.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>242</color>\nsyslog scrubber for sale.  works, cheap.  not much<color=#299400FF>¢</color>else to say.  Jimmy @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>215</color>\nHALPERYON SYSTEMS internal development team has announced the release date for d<color=#495225FF>¦</color>lete_me_first. HA<color=#880024FF>©</color>PERYON SYSTEMS declined to comment on the environmental ramifications of its production.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>213</color>\nFollowing critical review of H0meEnter<color=#FFFFFFFF>Á</color>4inment, the project has been cancelled.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>207</color>\nREMINDER: All bunnybats must be checked in at the front de<color=#FFFFFFFF>¨</color>k.  Violators will be detained.",
-    "2057<color=#FF6A98FF>¡</color>D D203\nREMINDER: Loud noises can sometimes be heard in the loading docks.  This is just routine maintenance.  Do not be alarmed.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>197</color>\n<color=#E6C4FFFF>Ã</color>ot a cheap rate on a weekend t<color=#23381BFF>Á</color>ip to a Sea of Tranq resort Dec 13, includes shuttle.  Date cancelled; anybody want to come?  Separate beds!  Paolo @ Marketing.  FOR MORE EMPLOYEE EVENTS, SUBSCRIBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>177</color>\nProfits are up 17% in the Benelux region for Q4",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>164</color>\nThe coffee machine on the 3rd floor is broken again",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>126</color>\nREMINDER: All buildings will be evacuated and system<color=#23381BFF>§</color> unresponsive on Dec 31 23:00 GMT for the rOS 13.0 rollover.  Do not <color=#939500FF>Á</color>lan on open connections for at least twenty minutes after the update window.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>120</color>\nEmployees utilizing work resources poorly will be happy to know that the new entertainment and conference room reservation tool has been comp<color=#7D0000FF>¦</color>eted.  Look for e)(ecution0r in yo<color=#3F3F3FFF>¨</color>r mailbox.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>107</color>\nHALPERYON SYSTEMS is pleased t<color=#FFD863FF>§</color> announce that the initial launch of the e)(ecution0r software is a wild success.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>104</color>\nREMINDER: All bunnybats must be checked in at t<color=#23381BFF>Á</color>e front desk.  Violators will be detained.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>102</color>\nHALPERYON SYSTEMS is announcing the release of its amazing new produ<color=#B035EEFF>©</color>t which will definitely not end the world completely.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>99</color>\nWork continues on omegaby<color=#7AB2F4FF>¡</color>e_03.23_final_final, hope is held out that it might be connected to a cure for Welsh Measles.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>75</color>\nRegister for the holiday party.  This year's celebration will be cater<color=#FF96E0FF>¨</color>d by Setec Gastronomy.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>73</color>\nFeral bunnybat attacks have been reported in the west <color=#B035EEFF>¡</color>arages after nightfall.  Employees are encouraged to stick to lighted areas and carry their employer-<color=#43314CFF>¦</color>upplied mace.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>71</color>\nsyslog scrubber for sale.  works, cheap.  not much else to say.  Jim<color=#762E4AFF>¨</color>y @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>57</color>\nFe<color=#FF8383FF>©</color>al bunnybat attacks have been reported in the west garages after nightfall.  Emp<color=#A34F00FF>§</color>oyees are encouraged to stick to lighted areas and carry their employer-supplied mace.",
-    "2057AD <color=#B2934AFF>§</color>21\nrunningman23 of project thefloood has come clean about the cancellation of her product.  'We just can't justify the cost.' she said.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>21</color>\nREMINDER: Loud noises can sometimes be hear<color=#F3AA6FFF>ª</color> in the loading docks.  This is just routine maintenance.  Do not be alarmed.",
-    "<color=#FFFFFFFF>2057</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>19</color>\nProfits are up 17% in the Benelux region for Q4",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>3</color><color=#101215FF>Ã</color>4\nThe coffee machine on the 3rd floor is broken again",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>321</color>\nGot a cheap rate on a weekend trip to a Sea of Tranq resort D<color=#762E4AFF>ª</color><color=#9B9B9BFF>¨</color> 13, includes shuttle.  Date cancelled; anybody want to come?  Separate beds!  Paolo @ Marketing.  FOR MORE EMPLOYEE EVENTS, SUBSCRIBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>291</color>\nL-1 Espressonaut for sale.  rOS 13 compatible.  Frother kin<color=#FFF404FF>¤</color> of weak, otherwise fine.  Lynne @ IT.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>260</color>\nREMINDER: Loud noises can sometimes be heard in the loading docks.  This is just routine mainte<color=#676767FF>¦</color>ance.  Do not be alarmed.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>258</color>\nGot a cheap rate on a weekend trip to a Sea of Tranq resort Dec 13, includes shuttle.  Date cancelled; anybody want <color=#FBC803FF>Ã</color>o come?  Separate beds!  Paolo @ Marketing.  FOR MORE EMPLOYEE EVENTS, SUBSC<color=#FFFFFFFF>¤</color>IBE SYSEVENTS.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>253</color>\nL-1 Espressonaut for sale.  rOS<color=#725437FF>¤</color>13 compatible.  Frother kind of weak, otherwise fine.  Lynne @ IT.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "2056AD D<color=#F3F998FF>¢</color>48\nRegister for the holiday party.  This year's celebration will be catered by Setec Gastronomy.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>226</color>\n2m0g0uvhc announces beta testing period starting to<color=#A4E3FFFF>¢</color>ay.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>223</color>\nRegister for the holiday party.  This year's celebration will be catered by Setec Gastronom<color=#725437FF>©</color>.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>168</color>\nREMINDER: All buildings will be evacuated and sy<color=#00535BFF>©</color>tems unresponsive on Dec 31 23:00 GMT for the rOS 13.0 rollover.  Do not plan on open connections for at least t<color=#973984FF>©</color>enty minutes after the update window.",
-    "2056A<color=#7D0000FF>¢</color> D160\nNew employees must report all breaks, including but not limited to biological breaks.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>157</color>\nRegister for the holiday party.  This year's celebration will be catered by Setec G<color=#FF8383FF>Á</color>stronomy.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>133</color>\nL-1 Espressonaut for sale.  rOS 13 compatible.  Frother kind of weak, otherwise fine.  Lynne @ IT.  FOR MORE STUFF FOR <color=#0073A6FF>¢</color>ALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>128</color>\nZX10 Quadraphoni<color=#F3F998FF>¢</color> Sound System for sale.  still on rOS 4.  gets the room moving like no other.  Sherlise @ DEVOPS.  FOR MORE <color=#939500FF>¨</color>TUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>121</color>\nFollowing critical review of dev_nul, the project has bee<color=#00535BFF>§</color> cancelled.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>112</color>\nsyslog scrubber for sale.  works, cheap.  not much else to s<color=#676767FF>§</color>y.  Jimmy @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>101</color>\nZX10 Quadraphonic Sound System for sale.<color=#FFF404FF>§</color> still on rOS 4.<color=#E6C4FFFF>¦</color> gets the room moving like no other.  Sherlise @ DEVOPS.  FOR MORE STUFF FOR SALE, SUBSCRIBE SYSDEALS.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>89</color>\nFollowing critical review of ls_rites, the project ha<color=#1EFF00FF>Ã</color> been cancelled.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>85</color>\nTake your clone to work day is coming up on January 10th!  Remember all clones must be registered with security 24 hours before vi<color=#601C81FF>¡</color>iting.",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>82</color>\nProfits are up 17% in <color=#676767FF>ª</color>he Benelux region for Q4",
-    "<color=#FFFFFFFF>2056</color><color=#CACACAFF>AD</color> <color=#9B9B9BFF>D</color><color=#1EFF00FF>55</color>\nAnyone showing signs of Wel<color=#507AA1FF>¨</color>h Measles wll be escorted from the building IMMEDIATLY!  Do not attempt to work through your symptoms.<color=#F3AA6FFF>Á</color>Your coworkers safety is your responsiblty."
-  ]
-}
-{
-  "{<color=#00FFFFFF>"nav"</color>:<color=#FF00ECFF>"about_us"</color>}": "HALPERYON SYSTEMS:  People.  Children.  Industrial Solvent Storage and<color=#FF8383FF>¨</color>Distribution.  Balance.\nWe are calling this strategy knowyourteam and we will continue to strive to deliver <color=#1EFF00FF>Ã</color>n this promise."
-}
-{
-  "{<color=#00FFFFFF>"nav"</color>:<color=#FF00ECFF>"dir"</color>,<color=#00FFFFFF>"p"</color>:<color=#FF00ECFF>"knowyourteam"</color>,<color=#00FFFFFF>"pass"</color>:<color=#FF00ECFF>"knowyourteam"</color>,<color=#00FFFFFF>"password"</color>:<color=#FF00ECFF>"knowyourteam"</color>,<color=#00FFFFFF>"project"</color>:<color=#FF00ECFF>"Free_BFG"</color>}": [
-    "<color=#9B9B9BFF>abandoned_jrttl_chhlao</color>.<color=#1EFF00FF>pub_info_c86voo</color>",
-    "<color=#9B9B9BFF>abndnd_jrttl_xrd0qf</color>.<color=#1EFF00FF>pubinfo_joh450</color>",
-    "<color=#9B9B9BFF>abndnd_ddttl_quao9v</color>.<color=#1EFF00FF>public</color><color=#FF00ECFF>Á</color>mo0rhd",
-    "abndnd_jrttl_qf9j<color=#385A6CFF>¢</color><color=#9B9B9BFF>y</color>.<color=#1EFF00FF>pub_info_uj52av</color>",
-    "<color=#9B9B9BFF>uknown_jrwlf_ha2n23</color>.<color=#1EFF00FF>external_q8w</color><color=#8FE6FFFF>Á</color>xy",
-    "derelict_jrttl_b4gut1<color=#762E4AFF>¢</color>pub_info_qxtmkv",
-    "<color=#9B9B9BFF>abandoned_jrttl_dxy4pt</color>.<color=#1EFF00FF>out_</color><color=#E6C4FFFF>§</color>im3qd",
-    "unknown_jr<color=#FF8383FF>§</color><color=#9B9B9BFF>tl_vp0gq6</color>.<color=#1EFF00FF>out_f5zxtg</color>",
-    "<color=#9B9B9BFF>unknown_ddttl_6wik15</color>.<color=#1EFF00FF>entry_72d0tk</color>",
-    "<color=#9B9B9BFF>anonymous_jr_l1pyyi</color>.<color=#1EFF00FF>info_zoyj6u</color>",
-    "derelict_jrttl<color=#FF6A98FF>©</color><color=#9B9B9BFF>fknpez</color>.<color=#1EFF00FF>pub_8vta7h</color>",
-    "<color=#9B9B9BFF>uknown_jr_xn83w6</color>.<color=#1EFF00FF>pub_7xr0om</color>",
-    "<color=#9B9B9BFF>anon_jrttl_lganov</color>.<color=#1EFF00FF>entry_kz3nw3</color>",
-    "<color=#9B9B9BFF>abandoned_jrttl_1fwyeq</color>.<color=#1EFF00FF>pubinfo_zqqkn4</color>",
-    "<color=#9B9B9BFF>unknown_jrttl_ot8gnq</color>.<color=#1EFF00FF>p_1gejrr</color>",
-    "<color=#9B9B9BFF>anonymous_ddttl_j5xv62</color>.<color=#1EFF00FF>pub_4m70x1</color>",
-    "abandon<color=#00FFFFFF>¢</color><color=#9B9B9BFF>d_jrttl_stbzip</color>.<color=#1EFF00FF>p_zqw0vz</color>",
-    "<color=#9B9B9BFF>derelict_jrttl_tgnpzm</color>.<color=#1EFF00FF>access_56vd52</color>"
-  ]
-}
-nav
-updates
-about_us
-dir
-486ms
-
-<color=#9B9B9BFF>-autocompletes added-</color>
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot connect to destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Request timeout
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
-Cannot resolve destination host
-
-
-<color=#FF0000FF>There was a critical error processing your request. 992</color>
 Cannot resolve destination host
 
 
@@ -1997,3 +1467,533 @@ Macro created: last = <color=#FF8000FF>users</color>.<color=#1EFF00FF>last_actio
 }
 
 <color=#9B9B9BFF>-autocompletes added-</color>
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot connect to destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot connect to destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot connect to destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#FF0000FF>There was a critical error processing your request. 992</color>
+Cannot resolve destination host
+
+
+<color=#9B9B9BFF>-terminal active-
+</color>
+<color=#9B9B9BFF>-authentication success-</color>
+
+<color=#FF0000FF>:::TRUST COMMUNICATION::: </color><color=#FF8000FF>Larceny</color>, <color=#0070DDFF>laundering</color>, <color=#9B9B9BFF>theft of currency and information</color>, <color=#CACACAFF>deception</color>, <color=#FF96E0FF>betrayal</color>, and <color=#FFF404FF>backstabbing</color> are all part of hackmud, and <color=#1EFF00FF>strongly encouraged</color>.
+
+<color=#FFFFFFFF>Discrimination, discriminatory language, and personal abuse are not. </color>
+<color=#FF0000FF>Violators will be removed.</color>
+Direct enquiries to conduct@hackmud.com
+
+Usage: <color=#9B9B9BFF>user</color> <color=#FF00ECFF>ÈusernameÉ</color>
+Your users: <color=#9B9B9BFF>hamtaro</color>, <color=#9B9B9BFF>rodent</color>, <color=#9B9B9BFF>the_spanish_inquisition</color>, <color=#9B9B9BFF>uwotm8</color> (4 / 4)
+Retired users:  (0 / 10)
