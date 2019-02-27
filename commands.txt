@@ -1,1 +1,17 @@
 user hamtaro
+/specs
+/cash
+scripts.user
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.setec_gas.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
