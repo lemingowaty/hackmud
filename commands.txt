@@ -15,3 +15,61 @@ hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
 hamtaro.lurk { T:#s.setec_gas.public, project:"name", pwd:"password" }
 hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
 hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
+user hamtaro
+scripts.user
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.weyland.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.setec_gas.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.halperyon.public, project:"name", pwd:"password" }
+hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
+#up hamtaro.lurk
+#up lurk
+hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.bunnybat_hut.public, project:"name", pwd:"password" }
