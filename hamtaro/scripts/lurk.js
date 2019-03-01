@@ -44,7 +44,10 @@ function( C, A ) { // hamtaro.lurk { T:#s.cmp.public , project:"name" , pwd:"pas
     , nav
   //
 
+
   FindCmds()
+
+  return FindCmds()
 
   Output( Date.now() - _ST + "ms" )
   return outp
@@ -64,9 +67,11 @@ function( C, A ) { // hamtaro.lurk { T:#s.cmp.public , project:"name" , pwd:"pas
           .split( "\n" )
           .reverse()[ 0 ]
         )
+
     if ( !isCrpt (
          charMap.map( char => char.charCodeAt(0) ) 
     ) ) return charMap.join("").split(" | ")
+    
     #D( 
       that.a
       .split("\n")
