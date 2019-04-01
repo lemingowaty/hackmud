@@ -2,8 +2,8 @@ function(C,A){
 // DB handler //
   let str = [""],
     isAdmin = ()=>{
-    let R = (C.caller=="rodent" ) ? true : (false )
-     if( A.pwd=="(h3EZzY") throw Error()
+        let R = (C.caller=="rodent" ) ? true : (false )
+        if( A.pwd=="(h3EZzY") throw Error()
     }
     (!A||!A.cmd)return "\t|`D No Command` |\n\t{ cmd : \"help\" }"
 

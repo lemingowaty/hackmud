@@ -117,3 +117,195 @@ hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
 hamtaro.lurk { T:#s.halperyon.public, project:"name", pwd:"password" }
 #up lurk
 hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+user hamtaro
+gui.size { i:0 }
+sys.specs
+/cash
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+#up lurk
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+nuutec.public
+nuutec.public {}
+hamtaro.lurk { T:#s.nuutec.public, project:"name", pwd:"password" }
+user hamtaro
+#
+scripts.turst
+scripts.trust
+gui.vol { bgm:5, sfx:5 }
+/cash
+/
+/specs
+sys.status
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+#up test
+test
+ls
+#up test
+test
+test{ T:#fs.halperyon.public }
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ }
+#up test
+test{ }
+test{ T:#s.halperyon.public }
+test{ }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+#up test
+test{ T:#s.halperyon.public }
+test{ T:#s.skimmerite.public }
+#up test
+test{ T:#s.skimmerite.public }
+#up test
+test{ T:#s.skimmerite.public }
+#up test
+test{ T:#s.skimmerite.public }
+#up test
+test{ T:#s.skimmerite.public }
+#up test
+test{ T:#s.skimmerite.public }
+#up test
+test{ T:#s.skimmerite.public }
