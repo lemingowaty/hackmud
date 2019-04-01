@@ -1,5 +1,18 @@
 function( CTX, ARG ) {
-   var l
+   const Stfy = _ => JSON.stringify( _ ),
+      crpt = [ 0,
+         161, 162, 164,
+         166, 167, 168, 169, 170,
+         193, 195
+      ]
+   l = 0
+   id = IT()
+   let O = new CLer( ARG.T )
+   O.Dial()
+   O.Dial({})
+   return O
+
+////////////////////
    function* IT (x){
       var i = 0
       while (1) {
@@ -7,13 +20,6 @@ function( CTX, ARG ) {
          yield i++
       }
    }
-   var id = IT()
-   const Stfy = _ => JSON.stringify( _ ),
-      crpt = [ 0,
-         161, 162, 164,
-         166, 167, 168, 169, 170,
-         193, 195
-      ]
    //
    function CLer( tgt ) {
       if (!tgt) throw Error("No Target")
@@ -47,8 +53,7 @@ function( CTX, ARG ) {
       })
       return self
    }
+   //
+   var l , id
 
-  let O = new CLer( ARG.T )
-  O.Dial() ; O.Dial({})
-  return { O , l }
 }
