@@ -17,11 +17,12 @@ const Stfy = _ => JSON.stringify( _ )
 let l = 0
     , id = IT()
     , O = new CLer( ARG.T )
+    //
 
 O.Dial()
 O.Dial( {} )
 
-if (ARG.Dbg) Dbg()
+if (ARG.d) Dbg()
 return O
 
 // }Main
@@ -50,7 +51,7 @@ function CLer( tgt ) {
         , log = []
         , alog = []
         , Dial = q => {
-            var $q = Stfy( q ) || null
+            var q = Stfy( q ) || null
                 , a = call( q )
                 , t = $a.constructor.name
                 , i = id.next()
@@ -58,10 +59,10 @@ function CLer( tgt ) {
                 , r;
             r = _ => {
                 _ = call.bind( self, $q )
-                var $ta = _()
-                alog.push( $ta )
-                log.push( { $q: Stfy( $q ), $a: $ta
-                    , $i: id.next().value, $r, $t: $ta.constructor.name } )
+                var ta = _()
+                alog.push( ta )
+                log.push( { q: Stfy( q ), a:ta
+                    , i: id.next().value, r, t: ta.constructor.name } )
                 return $ta
             }
             alog.push( $a )
