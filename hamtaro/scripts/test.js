@@ -13,11 +13,11 @@ const Stfy = _ => JSON.stringify( _ )
       runtime: _ => ( Date.now( ) - _ST ),
       left: _ => ( _TO - timer.runtime )
     }
-    //
+// const
 let l = 0
     , id = IT()
     , O = new CLer( ARG.T )
-    //
+// let
 
 O.Dial()
 O.Dial( {} )
@@ -35,6 +35,7 @@ function Dbg(){
         #D(line)
     }
 }
+
 function* IT( x ) {
     var i = 0
     while ( 1 ) {
@@ -50,17 +51,19 @@ function CLer( tgt ) {
         , { name, call } = tgt
         , log = []
         , alog = []
-        , Dial = q => {
-                , a = call( q )
-                , r;
-            r = _ => {
-                _ = call.bind( self, $q )
-                var ta = _()
-                alog.push( ta )
-                log.push( { q: Stfy( q ), a:ta
-                    , i: id.next().value, r, t: ta.constructor.name } )
-                return $ta
-            }
+        , Dial = Q => {
+                let q = Stfy(Q)
+                    , a = self.call( Q )
+                    , t = a.constructor.name
+                    , i = id.next().value
+                    , r ; r = _ => {
+                        _ = call.bind( self, Q )
+                        var ta = _()
+                        alog.push( ta )
+                        log.push( { q: Stfy( q ), a:ta
+                            , i: id.next().value, r, t: ta.constructor.name } )
+                        return $ta
+                    }
             alog.push( a )
             log.push( { q, a, r, t, i } )
             return a
