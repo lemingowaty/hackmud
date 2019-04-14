@@ -51,10 +51,7 @@ function CLer( tgt ) {
         , log = []
         , alog = []
         , Dial = q => {
-            var q = Stfy( q ) || null
                 , a = call( q )
-                , t = a.constructor.name
-                , i = id.next().value
                 , r;
             r = _ => {
                 _ = call.bind( self, $q )
