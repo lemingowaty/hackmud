@@ -40,6 +40,7 @@ function* IT( x ) {
         yield i++
     }
 }
+
     //
 function CLer( tgt ) {
     if ( !tgt ) throw Error( "No Target" )
@@ -67,9 +68,6 @@ function CLer( tgt ) {
         return full
     }    
     Object.defineProperty( self, 'self', {
-        value: that(),
-        enumerable: false
-    } ) // Self Reference
     return self
 }
 // } Functions
