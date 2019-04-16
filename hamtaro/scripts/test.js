@@ -6,14 +6,21 @@ function( CTX, ARG ) {
             , 161, 162, 164
             , 166, 167, 168, 169, 170
             , 193, 195
-        ],
-        timer = {
-            _TO,
-            _ST,
-            _END,
+        ]
+    //
+    var timer = {
+            _TO , _ST , _END,
             runtime: _ => ( Date.now() - _ST ),
-            left: _ => ( _TO - timer.runtime )
-        }
+            left: _ => ( _TO - timer.RN )
+    }
+    Object.defineProperty(timer, 'RN', { 
+        get:timer.runtime,
+        enumerable:true
+    })
+    Object.defineProperty(timer, 'TL', {
+        get:timer.left,
+        enumerable:true
+    })
     //
     let last = 0,
         id = IT(),
@@ -28,15 +35,15 @@ function( CTX, ARG ) {
 // Functions {
 function Dbg() {
     let line = "-".repeat( 16 )
-    for ( let i of [ CTX, ARG, timer, O ] ) {#
-        D( i )# D( line )
+    for ( let i of [ CTX , O.log.full , timer ] ) {
+        #D( i )
+        #D( line )
     }
 }
 //
 function* IT( x ) {
-    var i = x
+    var i = 0
     while ( 1 ) {
-        l = i
         yield i++
     }
 }
@@ -45,15 +52,18 @@ function* IT( x ) {
 function CLer( tgt ) {
     if ( !tgt ) throw Error( "No Target" )
     
-    var self = tgt,
-        that = _ => self,
-        cnter = IT(),
+    var self = tgt ,
+        cnter = IT() ,
         { name, call } = tgt
     //
+    Object.defineProperty( self, 'self', {
+        get : _ => self ,
+        enumerable:false
+    } )
     self.log = { q: [], a: [], t: [], full: [], last: null }
     self.Dial = Q => {
         let log = self.log
-        var q = JStf( Q ) || null,
+        var q = Jstf( Q ) || null,
             a = call( q ),
             t = a.constructor.name,
             i = cnter.next().value,
@@ -63,11 +73,10 @@ function CLer( tgt ) {
             }
         //var
         for ( let x of "qat" ) log[ x ].push( full[ x ] )
-        log.full( full )
+        log.full.push( full )
         log.last = i
         return full
     }    
-    Object.defineProperty( self, 'self', {
     return self
 }
 // } Functions
