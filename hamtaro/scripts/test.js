@@ -3,48 +3,52 @@ function( CTX, ARG ) {
     const Jstf = _ => JSON.stringify( _ ),
         Jprs = _ => JSON.parse( _ ),
         crpt = [ 0
-            , 161, 162, 164
+            , 161, 162
+            , 164
             , 166, 167, 168, 169, 170
-            , 193, 195
+            , 193
+            , 195
         ]
-    let timer = new Timer(),
-        O = new CLer( ARG.T )
-    
-    O.Dial()
-    O.Dial( {} )
-    if ( ARG.d ) Dbg()
-    return  { log : O.log.full , timer }
+
+    let O = CLer( ARG.T ),
+        DL = O.Dial,
+        Time = Timer(),
+        a1 = DL( ),
+        a2 = DL( { } )
+
+    if ( ARG.d ) Dbg( ARG.dbg ) // Accepts Arrays
+    return
 // } Main
 //-----------|
 // Functions {
-    function Dbg() {
+    function Dbg($ = [ ]) {
         let line = "-".repeat( CTX.cols )
-        for ( let i of [ CTX, ARG.T, timer ] ) {
-            #D( i )
+        for ( let i in $ ) $[i] = [ $[i]  ]
+        for ( let v of [ CTX , ...$ ] ) {
+            #D( v )
             #D( line )
         }
     }
 
     function* IT( x ) {
-        var i = 0
+        let i = 0
         while ( 1 ) {
             yield i++
         }
     }
 
-    function CLer( tgt ) {
-        if ( !tgt ) throw Error( "No Target" )
-        var self = tgt,
-            { call } = self,
+    function CLer( self ) {
+        if ( !self ) throw Error( "No Target" )
+        let { call } = self,
             cnter = IT()
         Object.defineProperties( self, {
             self : {
                 get: _ => self,
                 enumerable: false
             },
-            log : { 
+            log : {
                 value : {
-                    q: [], a: [], t: [], full: [], 
+                    q: [], a: [], t: [], full: [],
                     last: null
                 },
                 enumerable : true
@@ -67,28 +71,32 @@ function( CTX, ARG ) {
             log.last = i
             return full
         }
+
         return self
     }
 
-    function Timer() {
-        let self = {
-            _TO,
-            _ST,
-            _END,
+    function Timer($) {
+        $ = {
+            _TO , _ST, _END,
             runtime: _ => ( Date.now() - _ST ),
-            left: _ => ( _TO - self.RN )
+            left: _ => ( _TO - $.RN )
         }
-        Object.defineProperties( self, {
+        Object.defineProperties( $, {
             RN : {
-                get: self.runtime,
+                get: $.runtime,
                 enumerable: true
             },
             TL : {
-                get: self.left,
+                get: $.left,
                 enumerable: true
-            } 
+            },
+            DN : {
+                get: Date.now,
+                enumerable : true
+            }
         } )
-        return self
+
+        return $
     }
-// } Functions
+//} Functions
 }
