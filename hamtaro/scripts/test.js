@@ -1,30 +1,32 @@
 function( CTX, ARG ) {
 //Main{
     const Jstf = _ => JSON.stringify( _ ),
-        Jprs = _ => JSON.parse( _ ),
-        crpt = [ 0
+        Jprs = _ => JSON.parse( _ )
+    var crpt = String.fromCharCode(
+            0
             , 161, 162
             , 164
             , 166, 167, 168, 169, 170
             , 193
             , 195
-        ]
+        ),
+        nl = "\n"
 
     let O = CLer( ARG.T ),
         DL = O.Dial,
         Time = Timer(),
         a1 = DL( ),
-        a2 = DL( { } )
+        a2 = DL( { } ),
+        alog = [ a1 , a2 ]
 
-    if ( ARG.d ) Dbg( ARG.dbg ) // Accepts Arrays
-    return
+    if ( ARG.d ) Dbg( ARG.dbg )
+    return O
 // } Main
 //-----------|
 // Functions {
-    function Dbg($ = [ ]) {
+    function Dbg() {
         let line = "-".repeat( CTX.cols )
-        for ( let i in $ ) $[i] = [ $[i]  ]
-        for ( let v of [ CTX , ...$ ] ) {
+        for ( let v of [ CTX , crpt , Time ,...alog ] ) {
             #D( v )
             #D( line )
         }
@@ -32,6 +34,7 @@ function( CTX, ARG ) {
 
     function* IT( x ) {
         let i = 0
+        
         while ( 1 ) {
             yield i++
         }
@@ -66,6 +69,10 @@ function( CTX, ARG ) {
                     r: ( _ => self.Dial.bind( self, Jprs( q ) ) )()
                 }
             //var
+            if ( t == "Object" && a.ok === false )
+                throw Error(a.msg) // Script shifting
+            if ( t == "String" )
+            full.strinfo = strOp( a )
             log.full.push( full )
             for ( let x of "qat" ) log[ x ].push( full[ x ] )
             log.last = i
@@ -73,6 +80,39 @@ function( CTX, ARG ) {
         }
 
         return self
+    }
+
+    function strOp (s) {
+        let nline = 0 ,
+            crp = 0,
+            chMap , divn
+        
+        for (let c of crpt){ 
+            if ( s.includes(c) ) { crp = c ; break }
+        }
+
+        if (c) 
+            { chMap = Array.from(s).map(MapCRPT).join(" ") }
+        
+        if ( s.includes(nl) ){
+            nline = 1
+            divn = s.split("\n")
+        }
+        
+        return { nline , crp , chMap , divn }
+    }
+
+    function MapCRPT (ch) {
+        return {
+            ch ,
+            code : ch.charCodeAt(0),
+            cr : ( _=>{
+                for (let c of crpt) {
+                    if (c === ch) return true
+                    else return false
+                }
+            }) ()
+        }
     }
 
     function Timer($) {
