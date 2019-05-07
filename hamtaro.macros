@@ -12,3 +12,17 @@ gl
 scripts.get_level {{ name:"{0}" }}
 last
 users.last_action{{ name:"{0}" }}
+test
+test {{ T:#s.{0}.public }}
+cj
+chats.join {{ channel:"{0}" }}
+pub
+{0}.public
+pubq
+{0}.public {1}
+mychans
+chats.channels
+cl
+chats.leave {{ channel:"{0}" }}
+fullsec
+scripts.fullsec {{ sector:"{0}" }}
