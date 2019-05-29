@@ -1,13 +1,13 @@
 function( CTX, ARG ) {
-//Main{
-    const AF = _ => Array.from(_),
-
-        Jstf = _ => JSON.stringify( _ ),
-        Jprs = _ => JSON.parse( _ ),
-        ch2n = _ => _.charCodeAt(0),
-        n2ch = String.fromCharCode
-
-    var CrptNum = [
+//Globals {
+    const
+        isStr = _ => new Boolean( _.constructor.name == "String" ) ,
+        Jstf = _ => JSON.stringify( _ ) ,
+        Jprs = _ => JSON.parse( _ ) ,
+        ch2n = _ => _.charCodeAt( 0 ) ,
+        n2ch = _ => String.fromCharCode( _ )
+    var
+        CrptNum = [
             0
             , 161, 162
             , 164
@@ -16,21 +16,38 @@ function( CTX, ARG ) {
             , 195
         ],
         CrptStr = n2ch(...CrptNum),
-        nl = "\n"
+        nl = "\n",
+        rgx = {
+            color : /(`([0-9A-Za-z])(.+)?`)/gm
+        }
+//} Globals
+//Main {
 
-    let O = CLer( ARG.T ),
+    let
+        O = CLer( ARG.T ),
         alog = [],
-        Time = Timer( O ),
+        Time = new Timer( O ),
         DL = _=>{
             _ = O.Dial(_)
             alog.push(_)
             return _
+        },
+        reDL = _=>{
+            _ = _.r()
+            alog.push(_)
+            return _
         }
 
-    DL( )
-    DL( { } )
+    DL()
+    DL({})
+    reDL(alog[alog.length - 1])
+    for ( let x of  alog )
+        if ( isStr(x.a) ) x.info = strOp(x.a)
 
-    return O
+    return alog.map(e=>[
+        '-'.repeat(CTX.cols) ,
+        e.info
+    ])
 // } Main
 //-----------|
 // Functions {
@@ -76,8 +93,7 @@ function( CTX, ARG ) {
             //let
             if ( t == "Object" && a.ok === false )
                 throw Error(a.msg) // Script shifting
-            if ( t == "String" )
-                full.strinfo = strOp( a )
+
             log.full.push( full )
             log.last = i
             // for ( let x of "qat" ) log[ x ].push( full[ x ] )
@@ -87,17 +103,27 @@ function( CTX, ARG ) {
         return self
     }
 
-    function strOp (s) {
-        let { length } = s ,
+    function strOp (s,j) {
+        let
+            { length } = s ,
             nline = s.includes(nl) ,
-            afs = AF(s),
+            afs = [...s],
             crMap = [],
             chMap = afs.map(
                 (c,i)=>({ i, c, n:ch2n(c) })
-            ),
-            divs = s.split("\n"),
-            div = { divs , crMap:[] }
-            chMap.forEach( _=>{
+            )
+        #D( s )
+        #D( rgx.color.exec(s) )
+        let div = !nline ? undefined : (
+                _=>{
+                    _ = s.split(nl)
+                        .map(strOp)
+                    return _
+                }
+            )()
+
+
+        chMap.forEach( _=>{
                 for (let n of CrptNum ) {
                     if ( _.n === n ) {
                         crMap.push(_)
@@ -105,26 +131,8 @@ function( CTX, ARG ) {
                 }
             })
 
-            Object.defineProperty( div, "afs", { value : divs.map( p=>AF(p) ) })
-            Object.defineProperty( div, "chMap", {
-                value : div.afs.map(
-                    (D,j)=>D.map(
-                        (c,i)=>({ j , i, c, n:ch2n(c) })
-                    )
-                )
-            })
-            div.chMap.forEach(
-                D => D.forEach(
-                    _ => {
-                        for ( let c of CrptStr ) {
-                            if ( _.c === c ) div.crMap.push(_)
-                        }
-                    }
-                )
-            )
-
         return Object.defineProperties(
-            { crMap , nline , crMap , div , length  },
+            { s, crMap , nline , crMap , div , length , j },
             { chMap:{ value:chMap } , afs:{ value:afs } }
         )
     }
@@ -143,9 +151,8 @@ function( CTX, ARG ) {
         for ( let p in gtrs ) Omap[p] = {
             get:gtrs[p] , enumerable:true }
         // #D(Omap)
-        Object.defineProperties( $ , Omap )
 
-        return $
+        return Object.defineProperties( $ , Omap )
     }
 //} Functions
 }

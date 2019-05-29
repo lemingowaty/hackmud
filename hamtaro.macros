@@ -17,9 +17,7 @@ test {{ T:#s.{0}.public }}
 cj
 chats.join {{ channel:"{0}" }}
 pub
-{0}.public
-pubq
-{0}.public {1}
+{0}.public {$}
 mychans
 chats.channels
 cl
