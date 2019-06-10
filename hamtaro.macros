@@ -24,3 +24,5 @@ cl
 chats.leave {{ channel:"{0}" }}
 fullsec
 scripts.fullsec {{ sector:"{0}" }}
+upglist
+sys.upgrades
