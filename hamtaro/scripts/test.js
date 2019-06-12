@@ -18,7 +18,7 @@ function( CTX, ARG ) {
         CrptStr = n2ch(...CrptNum),
         nl = "\n",
         rgx = {
-            color : /(`([0-9A-Za-z])(.+)?`)/gm
+            color : /`([0-9A-Za-z])(.+)`/gm
         }
 //} Globals
 //Main {
@@ -36,28 +36,40 @@ function( CTX, ARG ) {
             _ = _.r()
             alog.push(_)
             return _
-        }
+        },
+        OUT = []
 
     DL()
     DL({})
-    reDL(alog[alog.length - 1])
     for ( let x of  alog )
         if ( isStr(x.a) ) x.info = strOp(x.a)
 
-    return alog.map(e=>[
-        '-'.repeat(CTX.cols) ,
-        e.info
-    ])
+    for ( let x of CrptItr("test`d"+CrptStr[0]+"`dupa") ) O
+    return OUT
+    // alog.map(e=>[
+    //     '-'.repeat(CTX.cols) ,
+    //     e.info
+    // ])
 // } Main
 //-----------|
 // Functions {
-
-    function* IT( x ) {
-        let i = 0
-
-        while ( 1 ) {
-            yield i++
+    function* CrptItr(txt){
+        for ( let i = 2 ; i < txt.length-1 ; i++ ){
+            i += CrptStr.includes(txt[i]) ? 1 : 0
+            #D(txt[i])
+            yield i
         }
+    }
+    function* IT() {
+        let i = 0
+        while ( 1 ) yield i++
+    }
+    function CharInfo(c,i){
+        let $ = {
+            c, i,
+            n : ch2n(c)
+        }
+        return $
     }
 
     function CLer( self ) {
@@ -103,36 +115,38 @@ function( CTX, ARG ) {
         return self
     }
 
-    function strOp (s,j) {
+    function strOp ( s, row ) {
         let
             { length } = s ,
             nline = s.includes(nl) ,
             afs = [...s],
             crMap = [],
-            chMap = afs.map(
-                (c,i)=>({ i, c, n:ch2n(c) })
-            )
-        #D( s )
-        #D( rgx.color.exec(s) )
-        let div = !nline ? undefined : (
-                _=>{
-                    _ = s.split(nl)
-                        .map(strOp)
-                    return _
+            chMap = afs.map(CharInfo)
+            
+        chMap.forEach( (e,j)=>{
+            // if (e.skip == true) return
+            for (let n of CrptNum ) {
+                if ( e.n == n ) {
+                    crMap.push([
+                        chMap[j-2],
+                        chMap[j-1],
+                        e,
+                        chMap[j+1]
+                    ])
+                    break
                 }
-            )()
+            }
+        })
 
-
-        chMap.forEach( _=>{
-                for (let n of CrptNum ) {
-                    if ( _.n === n ) {
-                        crMap.push(_)
-                    }
-                }
-            })
+        let div = nline ? ( _=>s.split(nl).map(strOp) )()
+                : ( _=> crMap
+                    .forEach( crArr => crArr
+                        .forEach( e=>{ e.row = row } )
+                    )
+                )() 
 
         return Object.defineProperties(
-            { s, crMap , nline , crMap , div , length , j },
+            { s, crMap , div , length , row },
             { chMap:{ value:chMap } , afs:{ value:afs } }
         )
     }
