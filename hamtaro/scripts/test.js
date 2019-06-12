@@ -36,27 +36,33 @@ function( CTX, ARG ) {
             _ = _.r()
             alog.push(_)
             return _
-        }
+        },
+        OUT = []
 
     DL()
     DL({})
     for ( let x of  alog )
         if ( isStr(x.a) ) x.info = strOp(x.a)
 
-    return alog.map(e=>[
-        '-'.repeat(CTX.cols) ,
-        e.info
-    ])
+    for ( let x of CrptItr("test`d"+CrptStr[0]+"`dupa") ) O
+    return OUT
+    // alog.map(e=>[
+    //     '-'.repeat(CTX.cols) ,
+    //     e.info
+    // ])
 // } Main
 //-----------|
 // Functions {
-
+    function* CrptItr(txt){
+        for ( let i = 2 ; i < txt.length-1 ; i++ ){
+            i += CrptStr.includes(txt[i]) ? 1 : 0
+            #D(txt[i])
+            yield i
+        }
+    }
     function* IT() {
         let i = 0
-
-        while ( 1 ) {
-            yield i++
-        }
+        while ( 1 ) yield i++
     }
     function CharInfo(c,i){
         let $ = {
