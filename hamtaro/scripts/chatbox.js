@@ -1,5 +1,5 @@
-function(C,A){
-    if ( !A ) return `No arguments
+function(C,A){// hamtaro.chatbox{ msg:"" , c:"town" }
+if ( !A ) return `No arguments
     {
         c:"channel"
         to:"username",
@@ -60,8 +60,8 @@ function* clr_changer( l="0" ){
 
 function  Range(st, end){
     return Array.from(
-            Array(end-st+1).keys() ,
-            (e,i)=>(i+st)
+        Array(end-st+1).keys() ,
+        (e,i)=>(i+st)
     )
 }
 
