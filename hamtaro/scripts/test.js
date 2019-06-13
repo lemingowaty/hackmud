@@ -117,15 +117,13 @@ function CLer( self ) {
     return self
 }
 
-function strOp ( s, row="main" ) {
+function strOp ( s, row ) {
     let
         { length } = s ,
         afs = [...s] ,
         chMap = afs.map(CharInfo) ,
         crArr = Array.from( CrptItr(chMap) ) ,
-        div = s.includes(nl)
-            ? s.split(nl).map(strOp)
-            : undefined
+        div = s.split(nl).map(strOp)
 
     return Object.defineProperties(
         { crArr , div , length , row },
