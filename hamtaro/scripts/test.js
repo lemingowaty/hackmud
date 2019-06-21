@@ -24,8 +24,8 @@ function( CTX, ARG ) {
 //Main {
     let
         O = CLer( ARG.T ),
-        alog = [],
         Time = new Timer( O ),
+        alog = [],
         DL = _=>{
             _ = O.Dial(_)
             alog.push(_)
@@ -38,9 +38,10 @@ function( CTX, ARG ) {
         },
         OUT = []
 
-    DL()
-    // DL({})
-    for ( let x of  alog )
+    // DL()
+    DL({})
+
+    for ( let x of alog )
         if ( isStr(x.a) )
             x.info = strOp(x.a)
 
@@ -51,13 +52,13 @@ function( CTX, ARG ) {
 // Functions {
 function* CrptItr(chMap){
     for ( let i = 2 ; i < chMap.length-1 ; i++ ){
-        if ( CrptStr.includes(chMap[i].c) ) {
+        if ( CrptStr.includes(chMap[i].c) ){
             yield {
-                beg : chMap[i-2],
-                colr : chMap[i-1],
-                crpt : chMap[i],
-                end : chMap[i+1]
-              }
+             beg : chMap[i-2],
+             colr : chMap[i-1],
+             crpt : chMap[i],
+             end : chMap[i+1]
+             }
             i++
         }
     }
@@ -67,11 +68,10 @@ function* IT() {
     while ( 1 ) yield i++
 }
 function CharInfo(c,i){
-    let $ = {
-        c, i,
-        n : ch2n(c)
-    }
-    return $
+    return {
+     c, i,
+     n : ch2n(c)
+     }
 }
 function CLer( self ) {
     if ( !self ) throw Error( "No Target" )
@@ -125,11 +125,16 @@ function strOp ( s, row="main" ) {
         crArr = Array.from( CrptItr(chMap) ) ,
         div = s.includes(nl)
             ? s.split(nl).map(strOp)
-            : undefined
-
+            : undefined ,
+        real_length = length - (crArr.length * 3)
+    
     return Object.defineProperties(
-        { crArr , div , length , row },
-        { chMap:{ value:chMap } , afs:{ value:afs } }
+      { div , length , row , real_length },
+      { 
+        chMap: { value:chMap } ,
+        afs:{ value:afs } ,
+        crArr:{ value:crArr }
+      }
     )
 }
 
@@ -141,11 +146,15 @@ function Timer($={}) {
             DN : Date.now
         }
 
-    for ( let p in Omap) Omap[p] = {
-        value:Omap[p] , enumerable:true }
+    for ( let p in Omap) Omap[p] = 
+     {
+        value:Omap[p] , enumerable:true 
+     }
 
-    for ( let p in gtrs ) Omap[p] = {
-        get:gtrs[p] , enumerable:true }
+    for ( let p in gtrs ) Omap[p] = 
+     {
+        get:gtrs[p] , enumerable:true
+     }
     // #D(Omap)
 
     return Object.defineProperties( $ , Omap )
