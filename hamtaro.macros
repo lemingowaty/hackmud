@@ -26,5 +26,5 @@ fullsec
 scripts.fullsec {{ sector:"{0}" }}
 upglist
 sys.upgrades
-cjoin
-chats.join{{channel:"{0}"}}
+loadupg
+sys.upgrades {{ load:{0} }}
