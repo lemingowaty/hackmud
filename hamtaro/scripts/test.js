@@ -1,152 +1,102 @@
 function( CTX, ARG ) {
 //Globals {
     const
-        isStr = _ => Boolean( _.constructor.name == "String" ) ,
-        Jstf = _ => JSON.stringify( _ ) ,
-        Jprs = _ => JSON.parse( _ ) ,
-        ch2n = _ => _.charCodeAt( 0 ) ,
-        n2ch = String.fromCharCode ,
-        CrptNum = [
-            // 0
-            161, 162,
-            164,
-            166, 167, 168, 169, 170,
-            193,
-            195
-        ] ,
-        CrptStr = n2ch(...CrptNum) ,
-        nl = "\n" ,
-        rgx = {
-            color : /`([0-9A-Za-z])(.+)`/gm
-         }
-//} Globals|
-//------/-//
+        lib = #fs.hamtaro.lib( ),
+        {
+            CharInfo,
+            CrptStr,
+            Timer,
+            Dialer,
+        } = lib,
+        nl = "\n"
+        // rgx = {
+        //     color: /`([0-9A-Za-z])(.+)`/gm
+        // }
+// return "`TOK`"
+//} Globals
+//---------------------------------------------------------------
 //Main {
-    let
-        O = CLer( ARG.T ),
-        alog = [],
-        Time = new Timer( O ),
-        DL = _=>{
-            _ = O.Dial(_)
-            alog.push(_)
-            return _
-        },
-        reDL = _=>{
-            _ = _.r()
-            alog.push(_)
-            return _
-        },
-        OUT = []
+    if ( ( ARG || {} ).quine ) return #fs.scripts.quine( )
 
-    DL()
-    // DL({})
-    for ( let x of  alog )
-        if ( isStr(x.a) )
-            x.info = strOp(x.a)
+    let Time = Timer( {} ),
+        O = Dialer( ARG.T ),
+        { Dial, log } = O,
+        OUT = [ ],
+        OUTp = _ => OUT.push(
+            O.last,
+            info,
+            "-".repeat(CTX.cols)
+            ),
+        atak, info
 
-    return O
+    do {
+        atak = Dial( )
+        info = strOp( atak )
+        info.div.reverse( )
+    } while ( info.div[ 0 ].corrupt || info.div[ 1 ].corrupt )
+    OUTp( )
+    do {
+        atak = Dial( { Q: {} } )
+        info = strOp( atak )
+        if ( Time.TL <= 200) break
+    } while ( info.corrupt )
+    OUTp( )
+
+    return [
+        ...OUT,
+        `\t\`G${O.log.length} tries\``,
+        Time
+    ]
 // } Main
-
-//-----------|
+//----------------------------------------------------------------
 // Functions {
-function* CrptItr(chMap){
-    for ( let i = 2 ; i < chMap.length-1 ; i++ ){
-        if ( CrptStr.includes(chMap[i].c) ) {
-            yield {
-                beg : chMap[i-2],
-                colr : chMap[i-1],
-                crpt : chMap[i],
-                end : chMap[i+1]
-              }
-            i++
-        }
-    }
-}
-function* IT() {
-    let i = 0
-    while ( 1 ) yield i++
-}
-function CharInfo(c,i){
-    let $ = {
-        c, i,
-        n : ch2n(c)
-    }
-    return $
-}
-function CLer( self ) {
-    if ( !self ) throw Error( "No Target" )
-
-    let { call } = self,
-        cnter = IT()
-
-    Object.defineProperties( self, {
-        cnter ,
-        self : {
-            get: _ => self,
-            enumerable: false
-        } ,
-        log : {
-            value : {
-            //  q: [], a: [], t: [],
-                full: [],
-                last: null
-            },
-            enumerable : true
-        },
-    } )
-    self.Dial = Q => {
-        let log = self.log,
-            q = Jstf( Q ) || null,
-            a = call( q ),
-            t = a.constructor.name,
-            i = cnter.next().value,
-            full = {
-                q, a, t, i,
-                r: self.Dial.bind( self, Jprs(q) )
+    function* CrptItr( chMap ) {
+        for ( let i = 2; i < chMap.length - 1; i++ ) {
+            if ( CrptStr.includes( chMap[ i ].c ) ) {
+                yield {
+                    beg: chMap[ i - 2 ],
+                    colr: chMap[ i - 1 ],
+                    crpt: chMap[ i ],
+                    end: chMap[ i + 1 ]
+                }
+                i++
             }
-        //let
-        if ( t == "Object" && a.ok === false )
-            throw Error(a.msg) // Script shifting
-
-        log.full.push( full )
-        // log.last = full
-        // for ( let x of "qat" ) log[ x ].push( full[ x ] )
-        return full
+        }
     }
 
-    return self
-}
+    function strOp( s, row, ref ) {
 
-function strOp ( s, row ) {
-    let
-        { length } = s ,
-        afs = [...s] ,
-        chMap = afs.map(CharInfo) ,
-        crArr = Array.from( CrptItr(chMap) ) ,
-        div = s.split(nl).map(strOp)
+        let { length } = s,
+        afs = [ ...s ],
+            chMap = afs.map( CharInfo ),
+            div = s.includes( nl ) ?
+                s.split( nl ).map( strOp ) :
+                ( _ => {
+                    row += 1
+                    if ( isNaN(row) ) return [ s ].map(strOp)
+                } )( ),
+            crArr
+        if (!row && !(s.includes(nl) ) ||
+            div && div.length > 0 && div.length <= 3 ||
+            ref && ref.length <= 3 ||
+            row && ( row > ref.length - 3 )
+        ) crArr = Array.from( CrptItr( chMap ) )
+        row = row || 0
+        return Object.defineProperties( {
+            div,
+            length,
+            row,
+            corrupt: crArr ? (
+                crArr.length ? true
+                    : false
+             ) : undefined
 
-    return Object.defineProperties(
-        { crArr , div , length , row },
-        { chMap:{ value:chMap } , afs:{ value:afs } }
-    )
-}
-
-function Timer($={}) {
-    let Omap = { _TO , _ST , _END },
-        gtrs = {
-            RN : _ => ( Date.now() - _ST ),
-            TL : _ => ( _TO - $.RN ) ,
-            DN : Date.now
-        }
-
-    for ( let p in Omap) Omap[p] = {
-        value:Omap[p] , enumerable:true }
-
-    for ( let p in gtrs ) Omap[p] = {
-        get:gtrs[p] , enumerable:true }
-    // #D(Omap)
-
-    return Object.defineProperties( $ , Omap )
-}
-//} Functions
+        }, {
+            s: { value: s },
+            chMap: { value: chMap },
+            afs: { value: afs },
+            crArr: { value: crArr }
+        } )
+    }
+// } Functions
 }

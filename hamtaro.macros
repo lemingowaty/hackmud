@@ -26,3 +26,5 @@ fullsec
 scripts.fullsec {{ sector:"{0}" }}
 upglist
 sys.upgrades
+loadupg
+sys.upgrades {{ load:{0} }}

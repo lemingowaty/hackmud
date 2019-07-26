@@ -1,5 +1,6 @@
 function(C,A){// hamtaro.chatbox{ msg:"" , c:"town" }
-if ( !A ) return `No arguments
+//Main {
+    if ( !A ) return `No arguments
     {
         c:"channel"
         to:"username",
@@ -10,41 +11,39 @@ if ( !A ) return `No arguments
     into your chatbox.`
 
     let
-        SFCC = String.fromCharCode,
-        { c , to , msg } = A,
-        { caller , this_script } = C,
-        DB = #db.f({
-            name:this_script
-        }).first(),
-        last = A.col||DB.users[caller] ,
+        SFCC = String.fromCharCode
+        ,
+        { c , to , msg } = A
+        ,
+        { caller , this_script } = C
+        ,
+        DB = #db.f( { name:this_script } )
+         .first()
+        ,
+        last = A.col || DB.users[caller]
+        ,
         clrs = clr_changer(last)
-        // key =
-        // rgx = /[ ]/g
 
-    msg = msg.split(/(?=\W)/gm)
-        .map( e => `\`${clrs.next().value}${e}\`` )
-        .join("")
+    msg = `\`${clrs.next().value}${msg}\`` )
+    let s = c
+     ? #fs.chats.send({ c , msg })
+     : #fs.chats.tell({ to , msg })
 
-    let s = c ? #fs.chats.send({ c , msg })
-        : #fs.chats.tell({ to , msg })
+    s = s.ok
+     ? { ok : true , msg : `Message sent to ${c||to}` }
+     : s //Error
 
-    s = s.ok ? { ok : true , msg : `Message sent to ${c||to}` }
-        : s
-
-    #db.u1( { name:this_script },
-        {
-            $set : {
-               ["users."+caller] : clrs.next().value
-            }
-        }
-    )
-    // #D([
-    //     C , A ,
-    //     #db.f({name:this_script}).first()
-    // ])
+    #db.u1( { name:this_script } , {
+     $set : {
+        ["users."+caller] : clrs.next().value
+     }
+    })
 
     return s
+//} Main
+
 //} ---------------------------
+
 function* clr_changer( l="0" ){
     let clrtab = [..."012345"]
     for (let i of Range(65,89) )
