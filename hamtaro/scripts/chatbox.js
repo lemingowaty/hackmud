@@ -24,11 +24,7 @@ function(C,A){// hamtaro.chatbox{ msg:"" , c:"town" }
         ,
         clrs = clr_changer(last)
 
-    msg = msg
-     .split(/\s/gm)
-      .map( e => `\`${clrs.next().value}${e}\`` )
-       .join(" ")
-
+    msg = `\`${clrs.next().value}${msg}\`` )
     let s = c
      ? #fs.chats.send({ c , msg })
      : #fs.chats.tell({ to , msg })
