@@ -13,7 +13,7 @@ scripts.get_level {{ name:"{0}" }}
 last
 users.last_action{{ name:"{0}" }}
 test
-test {{ T:#s.{0}.public }}
+test {{ T:#s.{0}.public , q:{1=null} }}
 cj
 chats.join {{ channel:"{0}" }}
 pub
@@ -27,4 +27,6 @@ scripts.fullsec {{ sector:"{0}" }}
 upglist
 sys.upgrades
 loadupg
-sys.upgrades {{ load:{0} }}
+sys.manage {{ load:{0} }}
+unload
+sys.manage {{ unload:{0} }}
