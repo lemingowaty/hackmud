@@ -18,17 +18,22 @@ function ( CTX, ARG ) {
   function Uncorrupt(OLD,Dial) {
     let 
       OutCorr = row=> {
+        let crList = []
         if (row.corrupt) {
-          OUTp(row)
           row.arr.forEach(word=>{
-            if (word.corrupt) OUTp(word)
+            if (word.corrupt) crList.push(word.crArr)
           })
         }
+        return crList
       },
       q = { Q:JSON.parse(OLD.q) , f:1 },
       NEW = Dial(q)
+    
     strOp(NEW.a , NEW)
-    for ( let x of [OLD,NEW] ) { x.info.rows.forEach(OutCorr) ; OUTp("===") }
+    for ( let x of [OLD,NEW] ) {
+      OUTp( x.info.rows.map(OutCorr) )
+      OUTp("===")
+    }
   }
   
   function* CrptItr( chMap ) {
