@@ -13,7 +13,7 @@ scripts.get_level {{ name:"{0}" }}
 last
 users.last_action{{ name:"{0}" }}
 test
-test {{ T:#s.{0}.public , q:{1=null} }}
+hamtaro.test{{ T:#s.{0}.public , q:null }}
 cj
 chats.join {{ channel:"{0}" }}
 pub
@@ -30,3 +30,7 @@ loadupg
 sys.manage {{ load:{0} }}
 unload
 sys.manage {{ unload:{0} }}
+ct1
+ct1 {{ T:#s.{0} }}
+auto
+sys.specs
