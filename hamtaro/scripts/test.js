@@ -1,70 +1,81 @@
 function ( CTX, ARG ) {
+//Globals{
   const 
-    {
-      CharInfo,
+    { CharInfo,
       CrptStr,
       Timer,
       Dialer
     } = #fs.hamtaro.lib(),
-    hasLen = _ => _ ? ( _.length ? true : false ) : undefined,
-    realLen = (x,y) => x-(y.length*4 - y.length),
-    ODP = Object.defineProperties,
     
     Target = ARG.T,
     Time = Timer(),
+    { Dial } = Dialer(ARG.T),
     
+    Trim = _ => _.split("\n").splice(-2,2).join("\n") ,
+    hasLen = _ => _.length !== undefined ? ( _.length>0 ? true : false ) : null,
+    realLen = (x,y) => x.length-y.length,
+    ODP = Object.defineProperties,
     makeLine = _=>_.repeat( (CTX.cols / _.length) / 2 ),
     Output = [ makeLine("**BEGIN**") ],
-    Log = _ => Output.push( 
-      ( _.constructor.name == "Array"
-       ? [..._]
-       : _ ),
-      makeLine("-=")
-    )
-  
-  Main()
-  Log( makeLine("END \/\/ ") )
-  Log( Time )
-  return { Output , Target }  
+    log = _ => Output.push( _ , makeLine("-=") )
+  ;
 //}
-//=-={
-  function Main(){
-    let 
-      { Dial , log } = Dialer(Target),
-      query = { Q:{} , f:1 },
-      answer = Dial(query),
-      { last } = Target,
-      info = makeInfo( answer.a, answer )
+//Main(){
+  Target.clean = []
+  let  
+    { clean } = Target ,
+  answer = Dial({Q:{},f:1}),
+  info = makeInfo( answer.a, answer );
+  if (info.corrupt) clean.push( Decorrupt(answer) )
+  else clean.push( answer )
+  log( Target.last )
   
-    if (info.corrupt) Decorrupt(answer)    
-    Log( info )
-  }
+  answer = Dial({Q:null, f:1})
+  answer.a = Trim(answer.a)
+  info = makeInfo( answer.a , answer )
+  if (info.corrupt) clean.push( Decorrupt( answer , true ) )
+  else clean.push( answer )  
+  log(Target.last)
   
-  function Decorrupt ( last ){
+  //
+  log( makeLine("END \/\/ ") )
+  log( Time )
+    // for ( let i = 0 ; i<256 ; i++) #D( i + " : " + String.fromCharCode(i))
+  return { Output , Clean:Target.clean } 
+//}
+/////
+//=-={  
+  function Decorrupt ( last , trim=false ){
     let 
-      { Dial } = Target,
       query = { Q:JSON.parse(last.q) , f:1 },
-      fresh = Dial(query),
-      info = makeInfo(fresh.a,fresh)
-  
-    if (!info.corrupt) return info
-    let fr_cr = [] , ol_cr = [] , attempt
-    info.crArr.forEach(e=>fr_cr.push(
-      e.beg.i , e.colr.i,e.crpt.i,e.end.i
-      )
-    )
-    last.info.crArr.forEach(e=>ol_cr.push(
-      e.beg.i , e.colr.i,e.crpt.i,e.end.i
-      )
-    )
+      fresh = Dial(query)
+    ;
+    if (trim) fresh.a = Trim(fresh.a)
+    
+    let info =  makeInfo(fresh.a,fresh)
+    if (!info.corrupt) return fresh
+    
+    let Fcr = [] 
+    last.info.crArr.forEach( e=>Fcr.push( e.i ) )
+    
     let
-      Fcl = Array.from(genClean(fresh.a)),
-      Ocl = Array.from(genClean(last.a))
-    #D(Fcl.join(""))
-    #D(Ocl.join(""))
-    fr_cr.forEach(e=>Fcl[e]=Ocl[e])
-    #D(Fcl.join(""))
-    #D(Ocl.join(""))    
+      Fcl = [...genClean(fresh.a)],
+      Ocl = [...genClean(last.a)]
+    ;
+    Fcr.forEach( e=>Ocl[e]=Fcl[e] )
+    Fcl = Ocl
+    
+    var 
+      { q , t } = last,
+      attempt = {
+        a:Fcl.join(""),
+        i:(fresh.i+1) ,
+        q , t 
+      }      
+    makeInfo( attempt.a , attempt )
+    
+    if ( !attempt.info.corrupt ) return attempt
+    else return Decorrupt(attempt,trim)
   }
   
   function makeInfo( text  , here ){
@@ -76,68 +87,46 @@ function ( CTX, ARG ) {
         length,
         rows: arr.length ,
         corrupt: hasLen( crArr ),
-        realLen: length - ( crArr.length*4 - crArr.length ) 
+        realLen: realLen(text,crArr)
        },
        {
         arr: { value: arr },
         text: { value: text },
         crArr: { value: crArr }
        }
-      )
-    
-    if ( here && here.constructor.name == "Object" ) here.info = info
+      )    
+    if ( here ) here.info = info
     return info
   }
   
   function RowMap(row,i){
     let 
       { length } = row,
-      crArr = Array.from( genCrpt( row ) ),
-      arr = row.split(/\s+/g).map(WordMap)
-   
+      crArr = Array.from( genCrpt( row ) )
+      // arr = row.split(/\s+/g)   
     return ODP(
       {
        row, i, length,
-       realLen: realLen(length,crArr),
-       words: arr.length,
+       realLen: realLen( row,crArr ),
        corrupt: hasLen( crArr )
       },
-      {
-       crArr: { value: crArr },
-       arr: { value: arr }
-      }
+      { crArr: { value: crArr } }
     )
   }
-  
-  function WordMap(word){
-    let
-      { length } = word ,
-      crArr = Array.from( genCrpt(word) )
-   
-    return ODP(
-      {
-       word, length,
-       realLen: realLen(length,crArr) ,
-       corrupt: hasLen( crArr )
-      },
-      {
-       crArr: { value: crArr }
-      }
-    )
-  }
-  
+
   function* genCrpt( text ) {
     let chMap = [ ...text ].map( CharInfo )
-    for ( let i = 2 ; i < chMap.length - 1 ; i++ ) {
+    for ( let i = 0 ; i < chMap.length - 1 ; i++ ) {
       if ( CrptStr.includes(chMap[i].c) ) {
-        yield {
-          beg: chMap[ i - 2 ],
-          colr: chMap[ i - 1 ],
-          crpt: chMap[ i ],
-          end: chMap[ i + 1 ]
-         } //yield
+        yield *[
+          chMap[ i - 2 ],
+          chMap[ i - 1 ],
+          chMap[ i ],
+          chMap[ i + 1 ]
+        ] //yield
         i++
       }
+      else if (chMap[i].c==String.fromCharCode(215)) yield chMap[i]
     }
     return chMap
   }
@@ -146,12 +135,11 @@ function ( CTX, ARG ) {
     for ( let i = 0 ; i < chMap.length - 1 ; i++ ){
       // #D(chMap[i])
       if (chMap[i].c == "`" && CrptStr.includes(chMap[i+2].c) ){
-        yield null
+        yield String.fromCharCode(215)
         i+=3
       }
-      else {
-        yield chMap[i].c
-      }
+      else yield chMap[i].c
     }
+  return chMap
   }
 }

@@ -13,7 +13,7 @@ scripts.get_level {{ name:"{0}" }}
 last
 users.last_action{{ name:"{0}" }}
 test
-hamtaro.test{{ T:#s.{0}.public , q:null }}
+hamtaro.test{{ T:#s.{0}.public , q:{1=null} }}
 cj
 chats.join {{ channel:"{0}" }}
 pub
