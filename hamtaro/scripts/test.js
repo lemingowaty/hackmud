@@ -6,6 +6,7 @@ function ( CTX, ARG ) {
       Timer,
       Dialer
     } = #fs.hamtaro.lib(),
+    ODP = Object.defineProperties,
     
     Target = ARG.T,
     Time = Timer(),
@@ -14,29 +15,28 @@ function ( CTX, ARG ) {
     Trim = _ => _.split("\n").splice(-2,2).join("\n") ,
     hasLen = _ => _.length !== undefined ? ( _.length>0 ? true : false ) : null,
     realLen = (x,y) => x.length-y.length,
-    ODP = Object.defineProperties,
     makeLine = _=>_.repeat( (CTX.cols / _.length) / 2 ),
-    Output = [ makeLine("**BEGIN**") ],
-    log = _ => Output.push( _ , makeLine("-=") )
+    log = _ => Output.push( _ , makeLine("-=") ),
+  
+    badchar = String.fromCharCode(215)
+    Output = [ makeLine("**BEGIN**") ]
   ;
 //}
 //Main(){
-  Target.clean = []
+  Target.clean = {}
   let  
     { clean } = Target ,
-    answer , info
-  
+    answer , corrupt 
+  ;
   answer = Dial({Q:{},f:1}),
-  info = makeInfo( answer.a, answer );
-  if ( info.corrupt ) clean.push( Decorrupt(answer) )
-  else clean.push( answer )
+  { corrupt } = makeInfo( answer.a, answer );
+  clean.push( corrupt ? Decorrupt( answer ) : answer ) 
   log( Target.last )
   
   answer = Dial({Q:null, f:1})
   answer.a = Trim(answer.a)
-  info = makeInfo( answer.a , answer )
-  if (info.corrupt) clean.push( Decorrupt( answer , true ) )
-  else clean.push( answer )  
+  { corrupt } = makeInfo( answer.a , answer )
+  clean.push( corrupt ? Decorrupt( answer , true ) : answer ) 
   log(Target.last)
   
   //
@@ -109,21 +109,6 @@ function ( CTX, ARG ) {
       )
     }
   }
-  
-  function RowMap(row,i){
-    let 
-      { length } = row,
-      crArr = Array.from( genCrpt( row ) )
-      // arr = row.split(/\s+/g)   
-    return ODP(
-      {
-       row, i, length,
-       realLen: realLen( row,crArr ),
-       corrupt: hasLen( crArr )
-      },
-      { crArr: { value: crArr } }
-    )
-  }
 
   function* genCrpt( text ) {
     let chMap = [ ...text ].map( CharInfo )
@@ -137,16 +122,17 @@ function ( CTX, ARG ) {
         ] //yield
         i++
       }
-      else if (chMap[i].c==String.fromCharCode(215)) yield chMap[i]
+      else if (chMap[i].c==badchar) yield chMap[i]
     }
     return chMap
   }
+  
   function* genClean( text ){
     let chMap = [ ...text ].map( CharInfo )
     for ( let i = 0 ; i < chMap.length - 1 ; i++ ){
       // #D(chMap[i])
       if (chMap[i].c == "`" && CrptStr.includes(chMap[i+2].c) ){
-        yield String.fromCharCode(215)
+        yield badchar
         i+=3
       }
       else yield chMap[i].c
