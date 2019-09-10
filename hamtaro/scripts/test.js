@@ -24,9 +24,11 @@ function ( CTX, ARG ) {
   Target.clean = []
   let  
     { clean } = Target ,
+    answer , info
+  
   answer = Dial({Q:{},f:1}),
   info = makeInfo( answer.a, answer );
-  if (info.corrupt) clean.push( Decorrupt(answer) )
+  if ( info.corrupt ) clean.push( Decorrupt(answer) )
   else clean.push( answer )
   log( Target.last )
   
@@ -46,36 +48,30 @@ function ( CTX, ARG ) {
 /////
 //=-={  
   function Decorrupt ( last , trim=false ){
-    let 
+    let _,
       query = { Q:JSON.parse(last.q) , f:1 },
       fresh = Dial(query)
     ;
     if (trim) fresh.a = Trim(fresh.a)
+    _ = makeInfo(fresh.a,fresh)
+    if (!_.corrupt) return fresh
     
-    let info =  makeInfo(fresh.a,fresh)
-    if (!info.corrupt) return fresh
-    
-    let Fcr = [] 
-    last.info.crArr.forEach( e=>Fcr.push( e.i ) )
-    
-    let
+    let 
+      crp = last.info.crArr.map( e=>e.i ),
       Fcl = [...genClean(fresh.a)],
       Ocl = [...genClean(last.a)]
-    ;
-    Fcr.forEach( e=>Ocl[e]=Fcl[e] )
+    crp.forEach( e=>Ocl[e]=Fcl[e] )
     Fcl = Ocl
     
-    var 
+    let 
       { q , t } = last,
       attempt = {
         a:Fcl.join(""),
         i:(fresh.i+1) ,
         q , t 
-      }      
-    makeInfo( attempt.a , attempt )
-    
-    if ( !attempt.info.corrupt ) return attempt
-    else return Decorrupt(attempt,trim)
+      }
+    _ = makeInfo( attempt.a , attempt )
+    return ( _.corrupt ? Decorrupt(attempt,trim) : attempt)
   }
   
   function makeInfo( text  , here ){
@@ -97,6 +93,21 @@ function ( CTX, ARG ) {
       )    
     if ( here ) here.info = info
     return info
+    // RowMap
+    function RowMap(row,i){
+      let 
+        { length } = row,
+        crArr = Array.from( genCrpt( row ) )
+        // arr = row.split(/\s+/g)   
+      return ODP(
+        {
+         row, i, length,
+         realLen: realLen( row,crArr ),
+         corrupt: hasLen( crArr )
+        },
+        { crArr: { value: crArr } }
+      )
+    }
   }
   
   function RowMap(row,i){
