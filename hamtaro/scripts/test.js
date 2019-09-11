@@ -7,6 +7,7 @@ function ( CTX, ARG ) {
       Dialer
     } = #fs.hamtaro.lib(),
     ODP = Object.defineProperties,
+    badchar = String.fromCharCode(215)
     
     Target = Dialer(ARG.T),
     Time = Timer(),
