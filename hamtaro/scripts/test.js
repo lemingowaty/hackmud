@@ -8,50 +8,42 @@ function ( CTX, ARG ) {
     } = #fs.hamtaro.lib(),
     ODP = Object.defineProperties,
     
-    Target = ARG.T,
+    Target = Dialer(ARG.T),
     Time = Timer(),
-    { Dial } = Dialer(ARG.T),
     
+    Dial = _ => Target.Dial({Q:_,f:1}),
     Trim = _ => _.split("\n").splice(-2,2).join("\n") ,
     hasLen = _ => _.length !== undefined ? ( _.length>0 ? true : false ) : null,
     realLen = (x,y) => x.length-y.length,
-    makeLine = _=>_.repeat( (CTX.cols / _.length) / 2 ),
+    makeLine = _ => _.repeat( (CTX.cols / _.length) / 2 ),
     log = _ => Output.push( _ , makeLine("-=") ),
-  
-    badchar = String.fromCharCode(215)
     Output = [ makeLine("**BEGIN**") ]
-  ;
-//}
-//Main(){
-  Target.clean = {}
-  let  
-    { clean } = Target ,
-    answer , corrupt 
-  ;
-  answer = Dial({Q:{},f:1}),
-  { corrupt } = makeInfo( answer.a, answer );
-  clean.push( corrupt ? Decorrupt( answer ) : answer ) 
-  log( Target.last )
+//}Globals
+//Main{
+  let
+    clean = [],
+    answer , info
+
+  answer = Dial({})
+    info = makeInfo( answer.a , answer )
+    clean.push( info.corrupt ? Decorrupt( answer ) : answer )
   
-  answer = Dial({Q:null, f:1})
-  answer.a = Trim(answer.a)
-  { corrupt } = makeInfo( answer.a , answer )
-  clean.push( corrupt ? Decorrupt( answer , true ) : answer ) 
-  log(Target.last)
+  answer = Dial(null)
+    answer.a = Trim(answer.a)
+    info = makeInfo( answer.a , answer )
+    clean.push( info.corrupt ? Decorrupt( answer , true ) : answer )
   
-  //
+  log(clean)
+  log(clean[1])
+  
   log( makeLine("END \/\/ ") )
   log( Time )
-    // for ( let i = 0 ; i<256 ; i++) #D( i + " : " + String.fromCharCode(i))
-  return { Output , Clean:Target.clean } 
-//}
-/////
-//=-={  
+  return Output 
+//}Main
+//Functions{  
   function Decorrupt ( last , trim=false ){
     let _,
-      query = { Q:JSON.parse(last.q) , f:1 },
-      fresh = Dial(query)
-    ;
+      fresh = Dial( JSON.parse(last.q) )
     if (trim) fresh.a = Trim(fresh.a)
     _ = makeInfo(fresh.a,fresh)
     if (!_.corrupt) return fresh
@@ -64,11 +56,10 @@ function ( CTX, ARG ) {
     Fcl = Ocl
     
     let 
-      { q , t } = last,
+      { i , q , t } = fresh,
       attempt = {
         a:Fcl.join(""),
-        i:(fresh.i+1) ,
-        q , t 
+        q , t , i  
       }
     _ = makeInfo( attempt.a , attempt )
     return ( _.corrupt ? Decorrupt(attempt,trim) : attempt)
@@ -77,9 +68,10 @@ function ( CTX, ARG ) {
   function makeInfo( text  , here ){
     let
       { length } = text,
-      crArr = Array.from( genCrpt(text) ),
+      crArr = [...genCrpt(text)],
       arr = text.split("\n").map(RowMap),
-      info = ODP( {
+      info = ODP(
+       {
         length,
         rows: arr.length ,
         corrupt: hasLen( crArr ),
@@ -97,7 +89,7 @@ function ( CTX, ARG ) {
     function RowMap(row,i){
       let 
         { length } = row,
-        crArr = Array.from( genCrpt( row ) )
+        crArr = [...genCrpt( row )]
         // arr = row.split(/\s+/g)   
       return ODP(
         {
@@ -137,6 +129,7 @@ function ( CTX, ARG ) {
       }
       else yield chMap[i].c
     }
-  return chMap
+    return chMap
   }
+//}Functions
 }
