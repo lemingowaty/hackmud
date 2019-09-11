@@ -56,10 +56,8 @@ function ( CTX, ARG ) {
     Fcl = Ocl
     
     let 
-      { i , q , t } = fresh,
       attempt = {
         a:Fcl.join(""),
-        q , t , i  
       }
     _ = makeInfo( attempt.a , attempt )
     return ( _.corrupt ? Decorrupt(attempt,trim) : attempt)
@@ -68,10 +66,7 @@ function ( CTX, ARG ) {
   function makeInfo( text  , here ){
     let
       { length } = text,
-      crArr = [...genCrpt(text)],
       arr = text.split("\n").map(RowMap),
-      info = ODP(
-       {
         length,
         rows: arr.length ,
         corrupt: hasLen( crArr ),
