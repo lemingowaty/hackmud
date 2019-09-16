@@ -7,7 +7,7 @@ function ( CTX, ARG ) {
       Dialer
     } = #fs.hamtaro.lib(),
     ODP = Object.defineProperties,
-    badchar = String.fromCharCode(215)
+    badchar = String.fromCharCode(215),
     
     Target = Dialer(ARG.T),
     Time = Timer(),
@@ -26,26 +26,41 @@ function ( CTX, ARG ) {
     answer , info
 
   answer = Dial({})
-    info = makeInfo( answer.a , answer )
-    clean.push( info.corrupt ? Decorrupt( answer ) : answer )
+  info = makeInfo( answer )
+  clean.push( info.corrupt ? Decorrupt( answer ) : answer )
   
   answer = Dial(null)
-    answer.a = Trim(answer.a)
-    info = makeInfo( answer.a , answer )
-    clean.push( info.corrupt ? Decorrupt( answer , true ) : answer )
+  answer.a = Trim(answer.a)
+  info = makeInfo( answer )
+  clean.push( info.corrupt ? Decorrupt( answer , true ) : answer )
   
   log(clean)
+  // #D("Clean Done")
+  let 
+    nav = {} ,
+    match
+  
+  match = clean[0].a.match(/(\w+):\"(\w+)/)
+  nav.prefix = match[1]
+  nav.direct = match[2]
+  
+  match = clean[1].a.match(/(\w+)\s\|\s(\w+)/)
+  nav.header = match[1]
+  nav.about = match[2]
+  
+  log( nav )
   
   log( makeLine("END \/\/ ") )
   log( Time )
   return Output 
 //}Main
 //Functions{  
-  function Decorrupt ( last , trim=false ){
+  function Decorrupt ( last , trim){
+    // #D("Decorrupt")
     let _,
       fresh = Dial( JSON.parse(last.q) )
     if (trim) fresh.a = Trim(fresh.a)
-    _ = makeInfo(fresh.a,fresh)
+    _ = makeInfo(fresh)
     if (!_.corrupt) return fresh
     
     let 
@@ -61,12 +76,14 @@ function ( CTX, ARG ) {
         a:Fcl.join(""),
         q , t , i  
       }
-    _ = makeInfo( attempt.a , attempt )
+    _ = makeInfo( attempt )
     return ( _.corrupt ? Decorrupt(attempt,trim) : attempt)
   }
   
-  function makeInfo( text  , here ){
+  function makeInfo( here ){
+    // #D("makeInfo")
     let
+      text = here.a ,
       { length } = text,
       crArr = [...genCrpt(text)],
       arr = text.split("\n").map(RowMap),
@@ -87,6 +104,7 @@ function ( CTX, ARG ) {
     return info
     // RowMap
     function RowMap(row,i){
+      // #D("RowMap")
       let 
         { length } = row,
         crArr = [...genCrpt( row )]
