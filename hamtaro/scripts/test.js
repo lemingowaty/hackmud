@@ -13,29 +13,29 @@ function ( CTX, ARG ) {
     Time = Timer(),
     
     Dial = _ => Target.Dial({Q:_,f:1}),
-    Trim = _ => _.split("\n").splice(-2,2).join("\n") ,
+    Trim = (_,x=2) => _.split("\n").splice(-x,x).join("\n") ,
     hasLen = _ => _.length !== undefined ? ( _.length>0 ? true : false ) : null,
     realLen = (x,y) => x.length-y.length,
     makeLine = _ => _.repeat( (CTX.cols / _.length) / 2 ),
     log = _ => Output.push( _ , makeLine("-=") ),
-    Output = [ makeLine("**BEGIN**") ]
+    
+    Output = [ makeLine("**BEGIN**") , makeLine("-=") ]
 //}Globals
 //Main{
   let
     clean = [],
-    answer , info
+    grep = (q,t)=>{
+      let ans , info
+      
+      ans = Dial(q)
+      if (t) ans.a = Trim( ans.a , t)
+      info = makeInfo( ans )
+      return ans
+    }
+       
+  clean[0] = Decorrupt( grep({}) )
+  clean[1] = Decorrupt( grep( null,2 ) , 2)
 
-  answer = Dial({})
-  info = makeInfo( answer )
-  clean.push( info.corrupt ? Decorrupt( answer ) : answer )
-  
-  answer = Dial(null)
-  answer.a = Trim(answer.a)
-  info = makeInfo( answer )
-  clean.push( info.corrupt ? Decorrupt( answer , true ) : answer )
-  
-  log(clean)
-  // #D("Clean Done")
   let 
     nav = {} ,
     match
@@ -43,23 +43,42 @@ function ( CTX, ARG ) {
   match = clean[0].a.match(/(\w+):\"(\w+)/)
   nav.prefix = match[1]
   nav.direct = match[2]
-  
+
   match = clean[1].a.match(/(\w+)\s\|\s(\w+)/)
   nav.header = match[1]
   nav.about = match[2]
   
-  log( nav )
+  let
+    { prefix , direct , header , about } = nav,
+    qry = {
+      nws : { [prefix]:header },
+      dir : { [prefix]:direct },
+      abt : { [prefix]:about }
+    }
   
+  if(!ARG.p){
+    log ( Decorrupt(grep(qry.nws) ).a )
+    return Output
+  }
+  
+  clean[2] = Decorrupt(grep(qry.abt,1),1)
+  let pword = clean[2].a.match(/egy\s(.+)\sand/)[1]
+  
+  qry.dir.project = ARG.p
+  for (let name of ["p","pw","pwd","pass","password"]) qry.dir[name] = pword
+  
+  // clean.forEach(e=>log(e.a))
+  // log( Time )
+  log( Decorrupt( grep(qry.dir) ).a )
   log( makeLine("END \/\/ ") )
-  log( Time )
+  
   return Output 
 //}Main
-//Functions{  
-  function Decorrupt ( last , trim){
-    // #D("Decorrupt")
+//Functions{
+  function Decorrupt ( last , trim ){
     let _,
       fresh = Dial( JSON.parse(last.q) )
-    if (trim) fresh.a = Trim(fresh.a)
+    if (trim) fresh.a = Trim(fresh.a,trim)
     _ = makeInfo(fresh)
     if (!_.corrupt) return fresh
     
@@ -81,9 +100,9 @@ function ( CTX, ARG ) {
   }
   
   function makeInfo( here ){
-    // #D("makeInfo")
+    if (here.a.constructor.name=="Array") here.a = here.a.join("\n")
     let
-      text = here.a ,
+      text = here.a,
       { length } = text,
       crArr = [...genCrpt(text)],
       arr = text.split("\n").map(RowMap),
@@ -104,11 +123,9 @@ function ( CTX, ARG ) {
     return info
     // RowMap
     function RowMap(row,i){
-      // #D("RowMap")
       let 
         { length } = row,
-        crArr = [...genCrpt( row )]
-        // arr = row.split(/\s+/g)   
+        crArr = [...genCrpt( row )]  
       return ODP(
         {
          row, i, length,
